@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Lobster+Two&display=swap');
+    
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    font-family: 'Lobster Two', cursive;
+    font-weight: 300;
+    color: #2d2b42
+}
+
+h1, h2 { 
+    font-family: 'Lobster', cursive;
+    color: #2d2b42;
+}
+
+#logo {
+    font-size: 320%;
+    letter-spacing: 2px;
+    margin-left: 25px;
+    padding-top: 10px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+#nav-menu {
+    float: right;
+    margin-bottom: 0;
+    text-decoration: none;
+    border-bottom: none;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+    font-size: 140%;
+    padding-right: 40px;
+    padding-top: 10px;
+    text-decoration: none;
+    color:#2d2b42;
+}
+
+#logo, #nav-menu {
+    line-height: 75px;
+    color: #2d2b42;
+}
+
+a:link {
+    color; inherit;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #2d2b42;
+}
+
+a:hover {
+    color: #2d2b42;
+    }
+
+.grow {
+        transition: all .2s ease-in-out; 
+    }
+    
+.grow:hover { 
+    transform: scale(1.1); 
+    }    
+
+a:active {
+        color: #2d2b42;
+        border-bottom: 1px solid #2d2b42;
+        text-decoration: underline;
+    }
+
+
+
+
