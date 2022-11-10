@@ -99,6 +99,7 @@ a:active {
     height: 600px;
     width: 100%;
     padding-top: 75px;
+    padding-bottom: 75px;
     
 }
 
@@ -141,7 +142,50 @@ a:active {
 }
 
 
+/* About Us Section */
 
+#about-us-expanded {
+    height: 600px;
+    width: 100%;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    background-color: #2d2b42;
+}
+
+#about-us-expanded > h2 {
+    color: #ffffff;
+    font-size: 50px;
+    margin-left: 75px;
+}
+
+#what-we-do {
+    height: 600px;
+    width: 50%;
+    display: inline-block;
+}
+
+#what-we-do > p {
+    font-size: 175%;
+    margin-left: 75px;
+    padding-top: 50px;
+    color: #ffffff;
+}
+
+#swimmers {
+    height: 525px;
+    width: 50%;
+    float: right;
+    overflow: hidden;
+
+}
+
+#swimmer-image {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    padding-left: 75px;
+    
+}
 
 
 
