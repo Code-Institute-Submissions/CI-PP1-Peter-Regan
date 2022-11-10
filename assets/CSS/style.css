@@ -187,6 +187,30 @@ a:active {
     
 }
 
+/* Vacancies Section */
+
+#vacancies {
+    height: 600px;
+    width: 100%;
+    background-color: #2b0101;
+}
+
+#vacancy-div {
+    height: 600px;
+    width: 100%;
+    display:inline-block;
+}
+
+.sport-options {
+    height: 300px;
+    width: 33%;
+}
+
+.sport-image {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
 
 
 
