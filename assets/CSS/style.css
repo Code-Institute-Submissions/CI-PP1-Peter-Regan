@@ -219,11 +219,21 @@ a:active {
 /* Vacancies Section 2nd Attempt */
 
 #vacancies {
-    height: 800px;
+    height: 950px;
     width: 100%;
     margin-top: 25px;
     
 }
+
+#vacancies-heading {
+    color: #2d2b42;
+    padding-top: 50px;
+    padding-left: 75px;
+    padding-bottom: 50px;
+    font-size: 50px;
+}
+
+
 
 .grid-container {
     height: 800px;
@@ -261,9 +271,10 @@ a:active {
 }
 
 .grid-item2 {
-    background-color: pink;
+   
     margin: 25px;
     text-align: center;
+   
     
 }
 
@@ -275,6 +286,105 @@ a:active {
     opacity: 0.5;
     }
 
-    .grid-item2 > a > p {
-        margin-top: 33%;
+    .p1 {
+       margin-top: 25%;
+       font-size: 35px;
+       color: white;
+       line-height: 2em;
+       
     }
+
+    .p2 {
+        margin-top: 15%;
+        font-size: 35px;
+        color: white;
+        line-height: 2em;  
+        
+    }
+
+    /* Footer */
+
+    #footer {
+        height: 110px;
+        width: 100%;
+        margin-top: 50px;
+        margin-bottom: 25px;
+    }
+
+    #footer > ul {
+        list-style: none;
+        display: inline-block;
+        
+        
+    }
+
+    i {
+        padding-left: 75px;
+        padding-right: 75px;
+        color: #2d2b42;
+    }
+
+    .footerdiv {
+        text-align: center;
+        font-size: 25px;
+        color: #2d2b42;
+    }
+        
+    /* Available Sports Page */
+
+    #available-sports {
+        height: 600px;
+        width: 100%;
+        padding-top: 75px;
+        padding-bottom: 75px;
+        background-color: #ffffff;
+    }
+    
+    #available-sports > h2 {
+        color: #2d2b42;
+        font-size: 50px;
+        margin-left: 75px;
+    }
+    
+    #what-we-offer {
+        height: 600px;
+        width: 50%;
+        display: inline-block;
+    }
+    
+    #what-we-offer> p {
+        font-size: 175%;
+        margin-left: 75px;
+        padding-top: 150px;
+        color: #2d2b42;
+    }
+    
+    #soccerman {
+        height: 525px;
+        width: 50%;
+        float: right;
+        overflow: hidden;
+    
+    }
+    
+    #soccerman-image {
+        height: 100%;
+        width: 100%;
+        object-fit: contain;
+        padding-left: 75px;
+        
+    }
+
+    hr {
+        height: 5px;
+        background-color: #2d2b42;
+        margin-top: 200px;
+        margin-left: 75px;
+    }
+
+    
+
+    
+
+    
+    
