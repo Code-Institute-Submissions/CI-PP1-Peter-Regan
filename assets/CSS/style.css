@@ -103,6 +103,10 @@ a:active {
     
 }
 
+.hero-flex-container {
+    display: flex;
+}
+
 .herolink {
     display: inline-block;
     width: 50%;
@@ -116,14 +120,14 @@ a:active {
     background-size: cover;
     border-radius: 50%;
     margin-left: 75px;
-    float: left;
+    
     
 }
 
 #about-us {
     height: 600px;
     width: 50%;
-    float: right;
+    
     text-align: right;   
 }
 
@@ -158,10 +162,14 @@ a:active {
     margin-left: 75px;
 }
 
+#what-we-do-container {
+    display: flex;
+}
+
 #what-we-do {
     height: 600px;
     width: 50%;
-    display: inline-block;
+    
 }
 
 #what-we-do > p {
@@ -174,7 +182,7 @@ a:active {
 #swimmers {
     height: 525px;
     width: 50%;
-    float: right;
+    
     overflow: hidden;
 
 }
@@ -339,8 +347,12 @@ a:active {
         padding-bottom: 75px;
         background-color: #ffffff;
     }
+
+    .available-sports-container {
+        display: flex;
+    }
     
-    #available-sports > h2 {
+    #what-we-offer > h2 {
         color: #2d2b42;
         font-size: 50px;
         margin-left: 75px;
@@ -349,20 +361,18 @@ a:active {
     #what-we-offer {
         height: 600px;
         width: 50%;
-        display: inline-block;
     }
     
     #what-we-offer> p {
         font-size: 175%;
         margin-left: 75px;
-        padding-top: 150px;
+        padding-top: 100px;
         color: #2d2b42;
     }
     
     #soccerman {
         height: 525px;
         width: 50%;
-        float: right;
         overflow: hidden;
     
     }
