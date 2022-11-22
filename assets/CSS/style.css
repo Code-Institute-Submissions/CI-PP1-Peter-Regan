@@ -350,6 +350,7 @@ a:active {
 
     .available-sports-container {
         display: flex;
+        
     }
     
     #what-we-offer > h2 {
@@ -402,13 +403,15 @@ a:active {
     align-items: flex-start;
     row-gap: 25px;
     column-gap: 25px;
+    margin-bottom: 25px;
 
 }
 
 .available-sport-text {
     height: 400px;
     width: 40%;
-    background-color: green;
+    
+    
 }
 
 .available-sport-image {
@@ -423,7 +426,33 @@ a:active {
     object-fit: contain;
 }
 
+.available-sport-text > h2 {
+    color: #2d2b42;
+    font-size: 50px;
+    
+}
 
+.available-sport-text > p {
+    color: #2d2b42;
+    font-size: 175%;
+    margin-top: 25px;
+}
+
+/* Footer on Available Sports Page */
+
+.footer {
+    height: 110px;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+.footer > ul {
+    list-style: none;
+    display: inline-block;
+    
+    
+}
 
     
 
