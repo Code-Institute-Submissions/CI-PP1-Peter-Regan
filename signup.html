@@ -47,20 +47,25 @@
 <section>
     <form>
         <label for="fname">First Name</label><br>
-        <input type="text" id="fname" name="fname"><br>
+        <input type="text" id="fname" name="fname" required><br>
         <label for="lname">Last name:</label><br>
-        <input type="text" id="lname" name="lname"><br>
+        <input type="text" id="lname" name="lname" required><br>
         <label for="age">Age</label><br>
-        <input type="number" id="age" name="age"><br>
+        <input type="number" id="age" name="age" required><br>
         <label for="gender">Gender</label><br>
-        <select id="gender" name="gender">
+        <select id="gender" name="gender" required>
             <option value="male">Male</option>
             <option value="female">Female</option>
             <option value="non-binary">Non-Binary</option>
             <option value="prefer-not-to-say">Prefer Not To Say</option>
           </select><br>
         <label for="postcode">What's Your Postcode?</label><br>
-        <textarea id="postcode" name="postcode"></textarea>
+        <textarea id="postcode" name="postcode" required></textarea><br>
+        <label for="emailaddress">Email Address</label><br>
+        <input type="email" id="emailaddress" name="emailaddress" required><br>
+        <label for="telephone">UK Phone Number Without Country Code - Optional</label>
+        <input type="tel" id="telephone" name="telephone" pattern="[0-9]{3}-[0-9]{4}-[0-9]{4}">
+
 
 
     </form>
