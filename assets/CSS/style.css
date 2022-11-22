@@ -456,11 +456,17 @@ a:active {
 
 .checkboxes {
     display: grid;
-    grid-template-columns: auto auto;
-    grid-template-rows: auto auto auto auto;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    grid-template-rows: auto auto auto auto;   
 }
 
-    
+input[type=checkbox] {
+    color: #2d2b42;
+}
+
+.checkboxes > li {
+    color: #2d2b42;
+}
 
     
     
