@@ -46,27 +46,26 @@
 <!--Sign Up Form-->
 <section>
     <form method="POST" action="https://formdump.codeinstitute.net/" class="signup-form">
-        <label for="fname">First Name</label><br>
+        <br>
+        <label id="fullname" class="label" for="fname">Full Name:</label><br>
         <input class="text-input" type="text" id="fname" name="fname" required><br>
-        <label for="lname">Last name:</label><br>
-        <input class="text-input" type="text" id="lname" name="lname" required><br>
-        <label for="age">Age</label><br>
+        <label class="label" for="age">Age:</label><br>
         <input class="text-input" type="number" id="age" name="age" required><br>
-        <label for="gender">Gender</label><br>
+        <label class="label" for="gender">Gender:</label><br>
         <select class="select-input" id="gender" name="gender" required>
             <option value="male">Male</option>
             <option value="female">Female</option>
             <option value="non-binary">Non-Binary</option>
             <option value="prefer-not-to-say">Prefer Not To Say</option>
           </select><br>
-        <label for="postcode">What's Your Postcode?</label><br>
+        <label class="label" for="postcode">What's Your Postcode?</label><br>
         <textarea class="text-input" id="postcode" name="postcode" required></textarea><br>
-        <label for="emailaddress">Email Address</label><br>
+        <label class="label" for="emailaddress">Email Address:</label><br>
         <input class="email" type="email" id="emailaddress" name="emailaddress" required><br>
-        <label for="telephone">UK Phone Number Without Country Code (Optional)</label><br>
+        <label class="label" for="telephone">UK Phone Number Without Country Code (Optional):</label><br>
         <input class="phone-number" type="tel" id="telephone" name="telephone" pattern="[0-9]{3}-[0-9]{4}-[0-9]{4}"><br>
         <div id="availability-boxes">
-            <label for="checkboxes">When Are You Available?</label>
+            <label class="check-label" for="checkboxes">When Are You Available?</label>
             <ul class="checkboxes" id="checkboxes">
                 <li><label><input type="checkbox" name="monday6am" value="monday-6am-10am" />Monday 6AM-10AM</label></li>
                 <li><label><input type="checkbox" name="monday10am" value="monday-10am-2pm" />Monday 10AM-2PM</label></li>
@@ -111,13 +110,13 @@
             <input class="radio-input" type="radio" id="over10km" name="over10km" value="over10km">
             <label class="radio-label" for="over10km">Over 10km</label>
         </div>
-    <label for="sportingexperience">Tell Us About Your Current Fitness Level and Any Previous Sporting Experience</label><br>
+    <label class="label" for="sportingexperience">Tell Us About Your Current Fitness Level and Any Previous Sporting Experience:</label><br>
     <textarea class="text-input" name="sportingexperience" rows="10" cols="60"></textarea><br>
 
-    <label for="healthconditions">Please Let Us Know if You Are Affected by Any Medical Conditions or Chronic Injury</label><br>
+    <label class="label" for="healthconditions">Please Let Us Know if You Are Affected by Any Medical Conditions or Chronic Injury:</label><br>
     <textarea class="text-input" name="healthconditions" rows="10" cols="60"></textarea><br>
 
-    <label for="whichsport">Which Sport Are You Most Interested in Joining?</label><br>
+    <label class="label" for="whichsport">Which Sport Are You Most Interested in Joining?</label><br>
     <select class="select-input" id="whichsport" name="whichsport" required>
         <option value="tennis">Tennis</option>
         <option value="badminton">Badminton</option>
@@ -130,7 +129,7 @@
         <option value="running">Running</option>
     </select><br>
 
-    <label for="havent-found">Haven't Found What You're Looking For? Pop Your Question in Here!</label><br>
+    <label class="label" for="havent-found">Haven't Found What You're Looking For? Pop Your Question in Here!</label><br>
     <textarea class="text-input" name="havent-found" rows="10" cols="60"></textarea><br>
 
     <input class="submit-button grow" type="submit" class="submit-buttom" value="Submit">
