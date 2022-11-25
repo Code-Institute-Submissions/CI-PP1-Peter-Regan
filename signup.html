@@ -65,118 +65,74 @@
         <input type="email" id="emailaddress" name="emailaddress" required><br>
         <label for="telephone">UK Phone Number Without Country Code (Optional)</label><br>
         <input type="tel" id="telephone" name="telephone" pattern="[0-9]{3}-[0-9]{4}-[0-9]{4}"><br>
-        <label for="availability">When Are You Available?</label><br>
-        <select id="availability" name="availability" multiple required>
-            <option value="monday-6am-10am">Monday 6AM-10AM</option>
-            <option value="monday-10am-2pm">Monday 10AM-2PM</option>
-            <option value="monday-2pm-6pm">Monday 2PM-6PM</option>
-            <option value="monday-6pm-10pm">Monday 6pm-10pm</option>
-            <option value="tuesday-6am-10am">Tuesday 6AM-10AM</option>
-            <option value="tuesday-10am-2pm">Tuesday 10AM-2PM</option>
-            <option value="tuesday-2pm-6pm">Tuesday 2PM-6PM</option>
-            <option value="tuesday-6pm-10pm">Tuesday 6PM-10PM</option>
-            <option value="wednesday-6am-10am">Wednesday 6AM-10AM</option>
-            <option value="wednesday-10am-2pm">Wednesday 10AM-2PM</option>
-            <option value="wednesday-2pm-6pm">Wednesday 2PM-6PM</option>
-            <option value="wednesday-6pm-10pm">Wednesday 6PM-10PM</option>
-            <option value="thursday-6am-10am">Thursday 6AM-10AM</option>
-            <option value="thursday-10am-2pm">Thursday 10AM-2PM</option>
-            <option value="thursday-2pm-6pm">Thursday 2PM-6PM</option>
-            <option value="thursday-6pm-10pm">Thursday 6PM-10PM</option>
-            <option value="friday-6am-10am">Friday 6AM-10AM</option>
-            <option value="friday-10am-2pm">Friday 10AM-2PM</option>
-            <option value="friday-2pm-6pm">Friday 2PM-6PM</option>
-            <option value="friday-6pm-10pm">Friday 6PM-10PM</option>
-            <option value=""></option>
-            <option value=""></option>
-            <option value=""></option>
-            <option value=""></option>
-            <option value=""></option>
-            <option value=""></option>
-            <option value=""></option>
-            <option value=""></option>
-            
-        </select><br>
-<div>
-    <ul class="checkboxes">
-        <li><label><input type="checkbox" name="monday6am" value="monday-6am-10am" />Monday 6AM-10AM</label></li>
-        <li><label><input type="checkbox" name="monday10am" value="monday-10am-2pm" />Monday 10AM-2PM</label></li>
-        <li><label><input type="checkbox" name="monday2pm" value="monday-2pm-6pm" />Monday 2PM-6PM</label></li>
-        <li><label><input type="checkbox" name="monday6pm" value="monday-6pm-10pm" />Monday 6PM-1OPM</label></li>
-        <li><label><input type="checkbox" name="tuesday6am" value="tuesday-6am-10am" />Tuesday 6AM-10AM</label></li>
-        <li><label><input type="checkbox" name="tuesday10am" value="tuesday-10am-2pm" />Tuesday 10AM-2PM</label></li>
-        <li><label><input type="checkbox" name="tuesday2pm" value="tuesday-2pm-6pm" />Tuesday 2PM-6PM</label></li>
-        <li><label><input type="checkbox" name="tuesday6pm" value="tuesday-6pm-10pm" />Tuesday 6PM-10PM</label></li>
-        <li><label><input type="checkbox" name="wednesday6am" value="wednesday-6am-10am" />Wednesday 6AM-10AM</label></li>
-        <li><label><input type="checkbox" name="wednesday10am" value="wednesday-10am-2pm" />Wednesday 10AM-2PM</label></li>
-        <li><label><input type="checkbox" name="wednesday2pm" value="wednesday-2pm-6pm" />Wednesday 2PM-6PM</label></li>
-        <li><label><input type="checkbox" name="wednesday6pm" value="wednesday-6pm-10pm" />Wednesday 6PM-10PM</label></li>
-        <li><label><input type="checkbox" name="thursday6am" value="thursday-6am-10am" />Thursday 6AM-10AM</label></li>
-        <li><label><input type="checkbox" name="thursday10am" value="thursday-10am-2pm" />Thursday 10AM-2PM</label></li>
-        <li><label><input type="checkbox" name="thursday2pm" value="thursday-2pm-6pm" />Thursday 2PM-6PM</label></li>
-        <li><label><input type="checkbox" name="thursday6pm" value="thursday-6pm-10pm" />Thursday 6PM-10PM</label></li>
-        <li><label><input type="checkbox" name="friday6am" value="friday-6am-10am" />Friday 6AM-10AM</label></li>
-        <li><label><input type="checkbox" name="friday10am" value="friday-10am-2pm" />Friday 10AM-2PM</label></li>
-        <li><label><input type="checkbox" name="friday2pm" value="friday-2pm-6pm" />Friday 2PM-6PM</label></li>
-        <li><label><input type="checkbox" name="friday6pm" value="friday-6pm-10pm" />Friday 6PM-10PM</label></li>
-        <li><label><input type="checkbox" name="saturday6am" value="saturday-6am-10am" />Saturday 6AM-10AM</label></li>
-        <li><label><input type="checkbox" name="saturday10am" value="saturday-10am-2pm" />Saturday 10AM-2PM</label></li>
-        <li><label><input type="checkbox" name="saturday2pm" value="saturday-2pm-6pm" />Saturday 2PM-6PM</label></li>
-        <li><label><input type="checkbox" name="saturday6pm" value="saturday-6pm-10pm" />Saturday 6PM-10PM</label></li>
-        <li><label><input type="checkbox" name="sunday6am" value="sunday-6am-10am" />Sunday 6AM-10AM</label></li>
-        <li><label><input type="checkbox" name="sunday10am" value="sunday-10am-2pm" />Sunday 10AM-2PM</label></li>
-        <li><label><input type="checkbox" name="sunday2pm" value="sunday-2pm-6pm" />Sunday 2PM-6PM</label></li>
-        <li><label><input type="checkbox" name="sunday6pm" value="sunday-6pm-10pm" />Sunday 6PM-10PM</label></li>
-    </ul>
-</div>
+        <div>
+            <ul class="checkboxes">
+                <li><label><input type="checkbox" name="monday6am" value="monday-6am-10am" />Monday 6AM-10AM</label></li>
+                <li><label><input type="checkbox" name="monday10am" value="monday-10am-2pm" />Monday 10AM-2PM</label></li>
+                <li><label><input type="checkbox" name="monday2pm" value="monday-2pm-6pm" />Monday 2PM-6PM</label></li>
+                <li><label><input type="checkbox" name="monday6pm" value="monday-6pm-10pm" />Monday 6PM-1OPM</label></li>
+                <li><label><input type="checkbox" name="tuesday6am" value="tuesday-6am-10am" />Tuesday 6AM-10AM</label></li>
+                <li><label><input type="checkbox" name="tuesday10am" value="tuesday-10am-2pm" />Tuesday 10AM-2PM</label></li>
+                <li><label><input type="checkbox" name="tuesday2pm" value="tuesday-2pm-6pm" />Tuesday 2PM-6PM</label></li>
+                <li><label><input type="checkbox" name="tuesday6pm" value="tuesday-6pm-10pm" />Tuesday 6PM-10PM</label></li>
+                <li><label><input type="checkbox" name="wednesday6am" value="wednesday-6am-10am" />Wednesday 6AM-10AM</label></li>
+                <li><label><input type="checkbox" name="wednesday10am" value="wednesday-10am-2pm" />Wednesday 10AM-2PM</label></li>
+                <li><label><input type="checkbox" name="wednesday2pm" value="wednesday-2pm-6pm" />Wednesday 2PM-6PM</label></li>
+                <li><label><input type="checkbox" name="wednesday6pm" value="wednesday-6pm-10pm" />Wednesday 6PM-10PM</label></li>
+                <li><label><input type="checkbox" name="thursday6am" value="thursday-6am-10am" />Thursday 6AM-10AM</label></li>
+                <li><label><input type="checkbox" name="thursday10am" value="thursday-10am-2pm" />Thursday 10AM-2PM</label></li>
+                <li><label><input type="checkbox" name="thursday2pm" value="thursday-2pm-6pm" />Thursday 2PM-6PM</label></li>
+                <li><label><input type="checkbox" name="thursday6pm" value="thursday-6pm-10pm" />Thursday 6PM-10PM</label></li>
+                <li><label><input type="checkbox" name="friday6am" value="friday-6am-10am" />Friday 6AM-10AM</label></li>
+                <li><label><input type="checkbox" name="friday10am" value="friday-10am-2pm" />Friday 10AM-2PM</label></li>
+                <li><label><input type="checkbox" name="friday2pm" value="friday-2pm-6pm" />Friday 2PM-6PM</label></li>
+                <li><label><input type="checkbox" name="friday6pm" value="friday-6pm-10pm" />Friday 6PM-10PM</label></li>
+                <li><label><input type="checkbox" name="saturday6am" value="saturday-6am-10am" />Saturday 6AM-10AM</label></li>
+                <li><label><input type="checkbox" name="saturday10am" value="saturday-10am-2pm" />Saturday 10AM-2PM</label></li>
+                <li><label><input type="checkbox" name="saturday2pm" value="saturday-2pm-6pm" />Saturday 2PM-6PM</label></li>
+                <li><label><input type="checkbox" name="saturday6pm" value="saturday-6pm-10pm" />Saturday 6PM-10PM</label></li>
+                <li><label><input type="checkbox" name="sunday6am" value="sunday-6am-10am" />Sunday 6AM-10AM</label></li>
+                <li><label><input type="checkbox" name="sunday10am" value="sunday-10am-2pm" />Sunday 10AM-2PM</label></li>
+                <li><label><input type="checkbox" name="sunday2pm" value="sunday-2pm-6pm" />Sunday 2PM-6PM</label></li>
+                <li><label><input type="checkbox" name="sunday6pm" value="sunday-6pm-10pm" />Sunday 6PM-10PM</label></li>
+            </ul>
+        </div>
+        <div id="radio">
+            <label for="radio">How Far Are You Willing to Travel?</label>
+            <input type="radio" id="2.5km" name="2.5km" value="2.5km">
+            <label for="2.5km">2.5km</label>
+            <input type="radio" id="5km" name="5km" value="5km">
+            <label for="5km">5km</label>
+            <input type="radio" id="7.5km" name="7.5km" value="7.5km">
+            <label for="7.5km">7.5km</label>
+            <input type="radio" id="10km" name="10km" value="10km">
+            <label for="10km">10km</label>
+            <input type="radio" id="over10km" name="over10km" value="over10km">
+            <label for="over10km">Over 10km</label>
+        </div>
+    <label for="sportingexperience">Tell Us About Your Current Fitness Level and Any Previous Sporting Experience</label><br>
+    <textarea name="sportingexperience" rows="10" cols="60"></textarea><br>
 
-<div id="radio">
-<label for="radio">How Far Are You Willing to Travel?</label>
-<input type="radio" id="2.5km" name="2.5km" value="2.5km">
-<label for="2.5km">2.5km</label>
-<input type="radio" id="5km" name="5km" value="5km">
-<label for="5km">5km</label>
-<input type="radio" id="7.5km" name="7.5km" value="7.5km">
-<label for="7.5km">7.5km</label>
-<input type="radio" id="10km" name="10km" value="10km">
-<label for="10km">10km</label>
-<input type="radio" id="over10km" name="over10km" value="over10km">
-<label for="over10km">Over 10km</label>
-</div>
+    <label for="healthconditions">Please Let Us Know if You Are Affected by Any Medical Conditions or Chronic Injury</label><br>
+    <textarea name="healthconditions" rows="10" cols="60"></textarea><br>
 
-<label for="sportingexperience">Tell Us About Your Current Fitness Level and Any Previous Sporting Experience</label><br>
-<textarea name="sportingexperience" rows="10" cols="60">
-</textarea><br>
-
-<label for="healthconditions">Please Let Us Know if You Are Affected by Any Medical Conditions or Chronic Injury</label><br>
-<textarea name="healthconditions" rows="10" cols="60"></textarea><br>
-
-<label for="whichsport">Which Sport Are You Most Interested in Joining?</label><br>
-        <select id="whichsport" name="whichsport" required>
-            <option value="tennis">Tennis</option>
-            <option value="badminton">Badminton</option>
-            <option value="touchrugby">Touch Rugby</option>
-            <option value="basketball">Basketball</option>
-            <option value="cricket">Cricket</option>
-            <option value="circuittraining">Circuit Training</option>
-            <option value="hockey">Hockey</option>
-            <option value="rowing">Rowing</option>
-            <option value="running">Running</option>
-        </select><br>
+    <label for="whichsport">Which Sport Are You Most Interested in Joining?</label><br>
+    <select id="whichsport" name="whichsport" required>
+        <option value="tennis">Tennis</option>
+        <option value="badminton">Badminton</option>
+        <option value="touchrugby">Touch Rugby</option>            
+        <option value="basketball">Basketball</option>
+        <option value="cricket">Cricket</option>
+        <option value="circuittraining">Circuit Training</option>
+        <option value="hockey">Hockey</option>
+        <option value="rowing">Rowing</option>
+        <option value="running">Running</option>
+    </select><br>
 
     <label for="havent-found">Haven't Found What You're Looking For? Pop Your Question in Here!</label><br>
     <textarea name="havent-found" rows="10" cols="60"></textarea>
+</form>
 
-
-
-
-
-
-
-
-
-
-    </form>
 </section>
 <!--Footer-->
 <section class="footer">
