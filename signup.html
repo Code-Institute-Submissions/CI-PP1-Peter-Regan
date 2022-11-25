@@ -47,26 +47,27 @@
 <section>
     <form method="POST" action="https://formdump.codeinstitute.net/" class="signup-form">
         <label for="fname">First Name</label><br>
-        <input type="text" id="fname" name="fname" required><br>
+        <input class="text-input" type="text" id="fname" name="fname" required><br>
         <label for="lname">Last name:</label><br>
-        <input type="text" id="lname" name="lname" required><br>
+        <input class="text-input" type="text" id="lname" name="lname" required><br>
         <label for="age">Age</label><br>
-        <input type="number" id="age" name="age" required><br>
+        <input class="text-input" type="number" id="age" name="age" required><br>
         <label for="gender">Gender</label><br>
-        <select id="gender" name="gender" required>
+        <select class="select-input" id="gender" name="gender" required>
             <option value="male">Male</option>
             <option value="female">Female</option>
             <option value="non-binary">Non-Binary</option>
             <option value="prefer-not-to-say">Prefer Not To Say</option>
           </select><br>
         <label for="postcode">What's Your Postcode?</label><br>
-        <textarea id="postcode" name="postcode" required></textarea><br>
+        <textarea class="text-input" id="postcode" name="postcode" required></textarea><br>
         <label for="emailaddress">Email Address</label><br>
-        <input type="email" id="emailaddress" name="emailaddress" required><br>
+        <input class="email" type="email" id="emailaddress" name="emailaddress" required><br>
         <label for="telephone">UK Phone Number Without Country Code (Optional)</label><br>
-        <input type="tel" id="telephone" name="telephone" pattern="[0-9]{3}-[0-9]{4}-[0-9]{4}"><br>
-        <div>
-            <ul class="checkboxes">
+        <input class="phone-number" type="tel" id="telephone" name="telephone" pattern="[0-9]{3}-[0-9]{4}-[0-9]{4}"><br>
+        <div id="availability-boxes">
+            <label for="checkboxes">When Are You Available?</label>
+            <ul class="checkboxes" id="checkboxes">
                 <li><label><input type="checkbox" name="monday6am" value="monday-6am-10am" />Monday 6AM-10AM</label></li>
                 <li><label><input type="checkbox" name="monday10am" value="monday-10am-2pm" />Monday 10AM-2PM</label></li>
                 <li><label><input type="checkbox" name="monday2pm" value="monday-2pm-6pm" />Monday 2PM-6PM</label></li>
@@ -98,26 +99,26 @@
             </ul>
         </div>
         <div id="radio">
-            <label for="radio">How Far Are You Willing to Travel?</label>
-            <input type="radio" id="2.5km" name="2.5km" value="2.5km">
-            <label for="2.5km">2.5km</label>
-            <input type="radio" id="5km" name="5km" value="5km">
-            <label for="5km">5km</label>
-            <input type="radio" id="7.5km" name="7.5km" value="7.5km">
-            <label for="7.5km">7.5km</label>
-            <input type="radio" id="10km" name="10km" value="10km">
-            <label for="10km">10km</label>
-            <input type="radio" id="over10km" name="over10km" value="over10km">
-            <label for="over10km">Over 10km</label>
+            <label class="radio-label" for="radio">How Far Are You Willing to Travel?</label><br>
+            <input class="radio-input" type="radio" id="2.5km" name="2.5km" value="2.5km">
+            <label class="radio-label" for="2.5km">2.5km</label>
+            <input class="radio-input" type="radio" id="5km" name="5km" value="5km">
+            <label class="radio-label" for="5km">5km</label>
+            <input class="radio-input" type="radio" id="7.5km" name="7.5km" value="7.5km">
+            <label class="radio-label" for="7.5km">7.5km</label>
+            <input class="radio-input" type="radio" id="10km" name="10km" value="10km">
+            <label class="radio-label" for="10km">10km</label>
+            <input class="radio-input" type="radio" id="over10km" name="over10km" value="over10km">
+            <label class="radio-label" for="over10km">Over 10km</label>
         </div>
     <label for="sportingexperience">Tell Us About Your Current Fitness Level and Any Previous Sporting Experience</label><br>
-    <textarea name="sportingexperience" rows="10" cols="60"></textarea><br>
+    <textarea class="text-input" name="sportingexperience" rows="10" cols="60"></textarea><br>
 
     <label for="healthconditions">Please Let Us Know if You Are Affected by Any Medical Conditions or Chronic Injury</label><br>
-    <textarea name="healthconditions" rows="10" cols="60"></textarea><br>
+    <textarea class="text-input" name="healthconditions" rows="10" cols="60"></textarea><br>
 
     <label for="whichsport">Which Sport Are You Most Interested in Joining?</label><br>
-    <select id="whichsport" name="whichsport" required>
+    <select class="select-input" id="whichsport" name="whichsport" required>
         <option value="tennis">Tennis</option>
         <option value="badminton">Badminton</option>
         <option value="touchrugby">Touch Rugby</option>            
@@ -130,9 +131,9 @@
     </select><br>
 
     <label for="havent-found">Haven't Found What You're Looking For? Pop Your Question in Here!</label><br>
-    <textarea name="havent-found" rows="10" cols="60"></textarea><br>
+    <textarea class="text-input" name="havent-found" rows="10" cols="60"></textarea><br>
 
-    <input type="submit" class="submit-buttom" value="Submit">
+    <input class="submit-button grow" type="submit" class="submit-buttom" value="Submit">
 </form>
 
 </section>
