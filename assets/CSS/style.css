@@ -579,7 +579,7 @@ input[type=checkbox] {
     padding-left: 25px;
     padding-right: 25px;
     padding-bottom: 25px;
-    padding-top: 75px;
+    padding-top: 50px;
 }
 
 #invite2 {
@@ -587,5 +587,12 @@ input[type=checkbox] {
     padding-left: 25px;
     padding-right: 25px;
     padding-bottom: 25px;
-    padding-top: 75px;
+    padding-top: 50px;
+}
+
+#signup-heading {
+    color: #2d2b42;
+    font-size: 50px;
+    margin-left: 50px;
+    margin-top: 50px;
 }
