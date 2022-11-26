@@ -565,8 +565,8 @@ input[type=checkbox] {
     color: #2d2b42;
     font-size: 30px;
     padding-left: 25px;
-    padding-top: 50px;
-    padding-bottom: 75px;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 
 #signup-invite {
@@ -578,13 +578,14 @@ input[type=checkbox] {
     width: 50%;
     padding-left: 25px;
     padding-right: 25px;
-    padding-bottom: 50px;
+    padding-bottom: 25px;
+    padding-top: 75px;
 }
 
 #invite2 {
     width: 50%;
     padding-left: 25px;
     padding-right: 25px;
-    padding-bottom: 50px;
+    padding-bottom: 25px;
     padding-top: 75px;
 }
