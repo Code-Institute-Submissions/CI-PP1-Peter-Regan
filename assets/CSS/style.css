@@ -622,4 +622,8 @@ input[type=checkbox] {
         margin-left: 30px;
         padding-top: 25px;
     }
+
+    #swimmers {
+        width: 40%;
+    }
 }
