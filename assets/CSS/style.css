@@ -196,40 +196,10 @@ a:active {
     height: 100%;
     width: 100%;
     object-fit: contain;
-    padding-left: 75px;
-    
+    padding-left: 75px;  
 }
 
 /* Vacancies Section */
-
-/* Abandoning this attempt at styling divs and switching to grid layout
-
-#vacancies {
-    height: 600px;
-    width: 100%;
-    background-color: #2b0101;
-}
-
-#vacancy-div {
-    height: 600px;
-    width: 100%;
-    display:inline-block;
-}
-
-.sport-options {
-    height: 300px;
-    width: 33%;
-}
-
-.sport-image {
-    height: 100%;
-    width: 100%;
-    object-fit: contain;
-}
-
-*/
-
-/* Vacancies Section 2nd Attempt */
 
 #vacancies {
     height: 950px;
@@ -246,8 +216,6 @@ a:active {
     font-size: 50px;
 }
 
-
-
 .grid-container {
     height: 800px;
     width: 100%;
@@ -256,8 +224,6 @@ a:active {
     grid-template-rows: 1fr 1fr;
     position: relative;
     z-index: 5;
-    
-   
 }
 
 .grid-item {
@@ -266,11 +232,7 @@ a:active {
     overflow:hidden;
     box-sizing: border-box;
     margin: 25px;
-    
-       
 }
-
-
 
 .nested-container {
     height: 800px;
@@ -284,14 +246,9 @@ a:active {
 }
 
 .grid-item2 {
-   
     margin: 25px;
-    text-align: center;
-   
-    
+    text-align: center;   
 }
-
-
 
 .grid-image {
     max-width: 130%;
@@ -299,20 +256,18 @@ a:active {
     opacity: 0.5;
     }
 
-    .p1 {
-       margin-top: 25%;
+.p1 {
+    margin-top: 25%;
        font-size: 35px;
        color: white;
        line-height: 2em;
-       
-    }
+       }
 
-    .p2 {
-        margin-top: 15%;
-        font-size: 35px;
-        color: white;
-        line-height: 2em;  
-        
+.p2 {
+    margin-top: 15%;
+    font-size: 35px;
+    color: white;   
+    line-height: 2em;      
     }
 
     /* Footer */
@@ -633,4 +588,50 @@ input[type=checkbox] {
     #swimmers {
         width: 40%;
     }
-}
+
+    #what-we-do > p {
+        font-size: 150%;
+        margin-left: 50px;
+        padding-top: 50px;
+    }
+
+    #about-us-expanded > h2 {
+        font-size: 40px;
+        margin-left: 50px;
+    }
+
+    #vacancies-heading {
+        padding-left: 50px;
+        font-size: 50px;
+    }
+
+    .grid-item {
+        margin: 20px;
+    }
+
+    .grid-item2 {
+        margin: 20px; 
+    }
+
+    .grid-container {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+        
+    .nested-container {
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr 1fr 1fr;
+            
+        }
+    
+ .p1 {
+    margin-top: 20%;           
+    font-size: 20px;
+    }
+        
+.p2 {
+    margin-top: 10%;
+    font-size: 20px;   
+    }
+    
+    }
