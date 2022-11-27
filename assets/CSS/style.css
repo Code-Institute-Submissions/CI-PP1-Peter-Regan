@@ -604,5 +604,22 @@ input[type=checkbox] {
 
 /* Media Queries */
 
-@media screen and (max-width: 1200px) {
-    
+@media screen and (max-width: 1100px) {
+    #hero-image, #hero-image-background {
+        width: 400px;
+        height: 400px;
+    }
+
+    #nav-menu > li {
+        font-size: 120%;
+        padding-right: 30px;
+        padding-top: 25px;
+    }
+
+    #logo {
+        font-size: 300%;
+        letter-spacing: 2px;
+        margin-left: 30px;
+        padding-top: 25px;
+    }
+}
