@@ -623,6 +623,13 @@ input[type=checkbox] {
         padding-top: 25px;
     }
 
+    #about-us > p {
+        margin-right: 50px; 
+    font-size: 200%;  
+    margin-left: 50px;
+    margin-top: 100px;
+    }
+
     #swimmers {
         width: 40%;
     }
