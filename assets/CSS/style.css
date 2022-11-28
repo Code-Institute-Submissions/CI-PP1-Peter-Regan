@@ -182,14 +182,14 @@ a:active {
     width: 50%;
     display: flex;
     overflow: hidden;
+    justify-content: center;
 
 }
 
 #swimmer-image {
-    height: 100%;
-    width: 100%;
-    object-fit: contain;
-    padding-left: 75px;  
+    margin-left: 75px;
+    max-width: 100%;
+    object-fit: cover;  
     display: flex;
 }
 
@@ -718,18 +718,26 @@ i {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 2fr;
+    height: auto;
    }
 
   #swimmers {
     justify-content: center;
     margin: auto;
+    display: flex;
+    height: 100%;
+    
   }
 
   #what-we-do {
     text-align: center;
     justify-content: center;
     margin: auto;
+    height: 100%;
+    padding-bottom: 75px;
   }
+
+
   
   #vacancies-heading {
     text-align: center;
@@ -754,7 +762,7 @@ i {
             grid-template-columns: 1fr;
             grid-template-rows: 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr;  
             height: 100%;  
-            justify-content: center;
+            
         }
 
         .grid-item {
@@ -763,6 +771,7 @@ i {
     
         .grid-item2 {
             margin: 25px;
+            
             }
         
         .p1 {margin-top: 10%;
@@ -775,7 +784,7 @@ i {
 }
 
 @media screen and (max-width: 550px) {
-    i {padding: 10px}
+    i {padding: 5px}
 }
 
 @media screen and (max-width: 515px) {
@@ -800,6 +809,24 @@ i {
 @media screen and (max-width: 265px) {
     #navbar {height:400px;}
 }
+
+@media screen and (max-width: 400px) {
+    .p1, .p2 {
+        font-size: 5vw;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .p1, .p2 {
+        font-size: 4vw;
+    }
+}
+
+
+
+
+
+
 
 
 
