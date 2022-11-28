@@ -18,6 +18,7 @@ body {
 
 #navbar {
     background-color: #2d2b42;
+    
 }
 
 h1, h2 { 
@@ -108,7 +109,6 @@ a:active {
 }
 
 .herolink {
-    display: inline-block;
     width: 50%;
     height: 600px;
 }
@@ -117,9 +117,7 @@ a:active {
     height: 600px;
     width: 600px;
     border-radius: 50%;
-    margin-left: 75px;
-    
-    
+    margin-left: 75px;       
 }
 
 #hero-image-background {
@@ -560,7 +558,6 @@ input[type=checkbox] {
 /* Media Queries */
 
 @media screen and (max-width: 1200px) {
-
     #hero-container {
         height: 425px;
     }
@@ -580,7 +577,7 @@ input[type=checkbox] {
         font-size: 300%;
         letter-spacing: 2px;
         margin-left: 30px;
-        padding-top: 25px;
+        padding-top: 15px;
     }
 
     #about-us > p {
@@ -647,4 +644,37 @@ i {
 .footerdiv {
     font-size: 20px;
     }
+}
+
+/* Media Query for 950px */
+
+@media screen and (max-width: 950px) {
+
+    #logo {
+        font-size: 200%;
+        letter-spacing: 2px;
+        margin-left: 20px;
+        padding-top: 15px;
+        float: left;
+    }
+
+   #navbar {
+    height: 150px;
+   }
+
+    #nav-menu {
+        clear: left;
+        float: left;
+        margin-left: 20px;
+        margin-top: -30px;
+
+    }
+
+    #nav-menu > li {
+        font-size: 100%; 
+        line-height: 5px;   
+    }
+    
+    
+  
 }
