@@ -110,6 +110,7 @@ a:active {
 
 .herolink {
     width: auto;
+    max-height: 400px;
 }
 
 #hero-image {
@@ -131,7 +132,7 @@ a:active {
 #about-us {
     height: 600px;
     width: 50%;
-    
+    display: flex;
     text-align: right;   
 }
 
@@ -141,14 +142,6 @@ a:active {
     margin-left: 75px;
     margin-top: 100px;
 }
-
-.blurb2 {
-    margin-right: 75px;
-    font-size: 250%;
-    margin-left: 75px;
-    margin-top: 75px;
-}
-
 
 /* About Us Section */
 
@@ -173,6 +166,7 @@ a:active {
 #what-we-do {
     height: 600px;
     width: 50%;
+    display: flex;
     
 }
 
@@ -186,7 +180,7 @@ a:active {
 #swimmers {
     height: 525px;
     width: 50%;
-    
+    display: flex;
     overflow: hidden;
 
 }
@@ -196,6 +190,7 @@ a:active {
     width: 100%;
     object-fit: contain;
     padding-left: 75px;  
+    display: flex;
 }
 
 /* Vacancies Section */
@@ -677,14 +672,15 @@ i {
     }
     
      #hero-container {
-        height: auto;
+        height: 800px;
      }
 
     .hero-flex-container {
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr;
+        grid-template-rows: 0.75fr 0.75fr;
         width: 100%;
+        height: auto;
     }
 
    #hero-image {
@@ -693,7 +689,42 @@ i {
     margin: auto;
    }
 
-   #hero-image-background {
- justify-content: center;
+   #about-us {
+    justify-content: center;
+    width: 100%;
+    margin: auto;
+    text-align: center;
    }
+
+   .blurb1 {
+    margin-bottom: 0;
+   }
+
+   #about-us-expanded {
+    height: auto;
+   }
+
+   #about-us-expanded h2 {
+    text-align: center;
+   }
+
+   #what-we-do-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr;
+   }
+
+  #swimmers {
+    justify-content: center;
+    margin: auto;
+  }
+
+  #what-we-do {
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+  }
+  
+
+
 }
