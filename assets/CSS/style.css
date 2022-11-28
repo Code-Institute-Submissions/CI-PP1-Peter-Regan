@@ -769,5 +769,15 @@ i {
         }
 }
 
+@media screen and (max-width: 750px) {
+    i {padding: 25px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    i {padding: 10px}
+}
+
+
 
 
