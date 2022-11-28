@@ -822,6 +822,22 @@ i {
     }
 }
 
+@media screen and (max-width: 450px) {
+    #hero-container {
+        height: 725px};
+    
+
+    #about-us {
+        font-size: 3vw;
+    }
+
+    #hero-image, #hero-image-background {
+        max-width: 90%;  
+    }
+}
+
+    
+
 
 
 
