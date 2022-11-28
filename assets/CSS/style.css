@@ -301,7 +301,7 @@ a:active {
     /* Available Sports Page */
 
     #available-sports {
-        height: 600px;
+        height: auto;
         width: 100%;
         padding-top: 75px;
         padding-bottom: 75px;
@@ -324,7 +324,7 @@ a:active {
         width: 50%;
     }
     
-    #what-we-offer> p {
+    #what-we-offer > p {
         font-size: 175%;
         margin-left: 75px;
         padding-top: 100px;
@@ -335,6 +335,7 @@ a:active {
         height: 525px;
         width: 50%;
         overflow: hidden;
+        justify-content: center;
     
     }
     
@@ -824,7 +825,7 @@ i {
 
 @media screen and (max-width: 450px) {
     #hero-container {
-        height: 725px};
+        height: 725px;}
     
 
     #about-us {
@@ -834,7 +835,65 @@ i {
     #hero-image, #hero-image-background {
         max-width: 90%;  
     }
+
+    #what-we-do {
+        font-size: 3vw;
+    }
 }
+
+/* Media Query Page 2 */
+
+@media  screen and (max-width: 1200px) {
+    #available-sports {
+        height: auto;
+    }
+
+    #what-we-offer {
+        margin-right: 0;
+    }
+    #soccerman {
+        margin-right: 50px;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    hr {
+        display: none;
+    }
+}
+
+@media  screen and (max-width: 815px) {
+    #soccerman {margin-top:75px}
+}
+
+@media  screen and (max-width: 700px) {
+    #what-we-offer {font-size: 2vw;}
+}
+ @media screen and (max-width: 650px) {
+    #available-sports {
+        height: auto;
+        width: 100%;
+    }
+
+    .available-sports-container {
+        display: grid;
+        height: auto;
+        width: 100%;
+        justify-content: center;
+        margin: auto;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    
+
+
+
+}
+
+
+      
+    
 
     
 
