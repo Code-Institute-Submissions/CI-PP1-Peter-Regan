@@ -109,15 +109,15 @@ a:active {
 }
 
 .herolink {
-    width: 50%;
-    height: 600px;
+    width: auto;
 }
 
 #hero-image {
     height: 600px;
     width: 600px;
     border-radius: 50%;
-    margin-left: 75px;       
+    margin-left: 75px;     
+    display: flex; 
 }
 
 #hero-image-background {
@@ -125,6 +125,7 @@ a:active {
     height:90%;
     width: 90%;
     border-radius: 50%;
+    display: flex; 
 }
 
 #about-us {
@@ -675,6 +676,24 @@ i {
         line-height: 5px;   
     }
     
-    
-  
+     #hero-container {
+        height: auto;
+     }
+
+    .hero-flex-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        width: 100%;
+    }
+
+   #hero-image {
+    justify-content: center;
+    width: 100%;
+    margin: auto;
+   }
+
+   #hero-image-background {
+ justify-content: center;
+   }
 }
