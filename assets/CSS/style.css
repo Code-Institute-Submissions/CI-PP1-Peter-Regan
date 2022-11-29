@@ -65,6 +65,9 @@ li {
     padding-bottom: 10px;
 }
 
+
+/* The following code used to create the 'grow' animation effect was taken from an external website. This is documented in the README. */
+
 a:link {
     color: inherit;
     text-decoration: none;
@@ -92,8 +95,6 @@ a:active {
         text-decoration: underline;
     }
 
-
-
 /* Hero Image Section */
 
 #hero-container {
@@ -101,7 +102,6 @@ a:active {
     width: 100%;
     padding-top: 75px;
     padding-bottom: 75px;
-    
 }
 
 .hero-flex-container {
@@ -167,7 +167,6 @@ a:active {
     height: 600px;
     width: 50%;
     display: flex;
-    
 }
 
 #what-we-do > p {
@@ -183,7 +182,6 @@ a:active {
     display: flex;
     overflow: hidden;
     justify-content: center;
-
 }
 
 #swimmer-image {
@@ -209,6 +207,8 @@ a:active {
     padding-bottom: 50px;
     font-size: 50px;
 }
+
+/* Information from an external site was used to create the following grid layout. This is documented in the README. */
 
 .grid-container {
     height: 800px;
@@ -236,35 +236,32 @@ a:active {
     grid-template-rows: 1fr 1fr;
     position: absolute;
     z-index: 100;
-    
 }
 
 .grid-item2 {
     margin: 25px;
     text-align: center;   
-   
-    
 }
 
 .grid-image {
     max-width: 130%;
     min-height: 100%;
     opacity: 0.5;
-    }
+}
 
 .p1 {
     margin-top: 25%;
        font-size: 35px;
        color: white;
        line-height: 2em;
-       }
+}
 
 .p2 {
     margin-top: 15%;
     font-size: 35px;
     color: white;   
     line-height: 2em;      
-    }
+}
 
  .grid-item2 > a {
     height: 100%;
@@ -277,13 +274,11 @@ a:active {
         width: 100%;
         margin-top: 50px;
         margin-bottom: 25px;
-    }
+}
 
     #footer > ul {
         list-style: none;
         display: inline-block;
-        
-        
     }
 
     i {
@@ -310,8 +305,7 @@ a:active {
 
     .available-sports-container {
         display: flex;
-        
-    }
+        }
     
     #what-we-offer > h2 {
         color: #2d2b42;
@@ -336,7 +330,6 @@ a:active {
         width: 50%;
         overflow: hidden;
         justify-content: center;
-    
     }
     
     #soccerman-image {
@@ -344,7 +337,6 @@ a:active {
         width: 100%;
         object-fit: contain;
         padding-left: 75px;
-        
     }
 
     hr {
@@ -354,6 +346,8 @@ a:active {
         margin-left: 75px;
     }
 
+ /* The following flex layout was created with the help of information from an external website. This is documented in the README. */  
+    
 #available-sports-flex-container {
     height: auto;
     width: 100%;
@@ -365,20 +359,16 @@ a:active {
     row-gap: 25px;
     column-gap: 25px;
     margin-bottom: 25px;
-
 }
 
 .available-sport-text {
     height: 400px;
     width: 40%;
-    
-    
 }
 
 .available-sport-image {
     height: 400px;
     width: 40%;
-    
 }
 
 .sport-div-img {
@@ -390,7 +380,6 @@ a:active {
 .available-sport-text > h2 {
     color: #2d2b42;
     font-size: 50px;
-    
 }
 
 .available-sport-text > p {
@@ -411,8 +400,6 @@ a:active {
 .footer > ul {
     list-style: none;
     display: inline-block;
-    
-    
 }
 
 /* Sign-Up Form */
@@ -626,7 +613,6 @@ input[type=checkbox] {
     .nested-container {
             grid-template-columns: 1fr 1fr;
             grid-template-rows: 1fr 1fr 1fr;
-            
         }
     
  .p1 {
@@ -651,8 +637,6 @@ i {
     }
 
     #footer, .footer {max-width: 100%;}
-
-    
 }
 
 /* Media Query for 950px */
@@ -678,7 +662,6 @@ i {
         float: left;
         margin-left: 20px;
         margin-top: -30px;
-
     }
 
     #nav-menu > li {
@@ -729,9 +712,7 @@ i {
     margin: 0;
    }
 
-
-
-   #what-we-do-container {
+    #what-we-do-container {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 2fr;
@@ -745,7 +726,8 @@ i {
     height: 100%;
     }
 
-    #swimmer-image {margin: 0;}
+    #swimmer-image {margin: 0;
+    }
 
   #what-we-do {
     text-align: center;
@@ -762,7 +744,13 @@ i {
   }
 }
 
-/* Isolated Media Queries for Page 1 */
+/* Isolated Media Queries for index.html */
+
+@media screen and (max-width: 750px) {
+    i {margin: 25px;
+        padding:0;
+    }
+}
 
 @media screen and (max-width: 630px) {
     #vacancies {
@@ -803,19 +791,6 @@ i {
         }
 }
 
-@media screen and (max-width:400px) {
-    .p1, .p2 {
-        margin-top: 40%;
-    }
-    
-}
-
-@media screen and (max-width: 750px) {
-    i {margin: 25px;
-        padding:0;
-    }
-}
-
 @media screen and (max-width: 550px) {
     i {margin: 5px;
     padding:0;}
@@ -840,7 +815,15 @@ i {
         font-size: 150%;
     }    
 } 
- 
+
+@media screen and (max-width:400px) {
+    .p1, .p2 {
+        margin-top: 40%;
+        font-size: medium;
+    }
+    
+}
+
 @media screen and (max-width: 265px) {
     #navbar {height:400px;}
 }
