@@ -1167,8 +1167,11 @@ i {
     
  }
 
+/* Rules to Accommodate Erros Alerted in W3C Validator */
 
-      
+.playlist {
+    width: 100%;
+}
     
 
     

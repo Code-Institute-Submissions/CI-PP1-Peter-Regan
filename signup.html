@@ -41,11 +41,11 @@
     <h2 id="signup-heading">Sign Up Below</h2>
     <div id="signup-invite">
         <div id="invite1" class="invite-text"><p class="invite-text">Are you ready to make the leap into your next sporting adventure? Fill out the form below and we'll help you make all the necessary arrangements as soon as possible!<br><br> Maybe have a look at this Spotify playlist we found too if you want inspiration for your next HIIT routine.</p></div>
-        <div id="invite2" class="invite-playlist"><iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/4XTW3H2m8pUZMmy6QfvkPv?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe></div>
+        <div id="invite2" class="invite-playlist"><iframe class="playlist" style="border-radius:12px" src="https://open.spotify.com/embed/playlist/4XTW3H2m8pUZMmy6QfvkPv?utm_source=generator" height="380" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe></div>
     </div>
 </section>
 <!--Sign Up Form-->
-<section>
+<div>
     <form method="POST" action="https://formdump.codeinstitute.net/" class="signup-form">
         <br>
         <label id="fullname" class="label" for="fname">Full Name:</label><br>
@@ -54,6 +54,7 @@
         <input class="text-input" type="number" id="age" name="age" required><br>
         <label class="label" for="gender">Gender:</label><br>
         <select class="select-input" id="gender" name="gender" required>
+            <option value=""></option>
             <option value="male">Male</option>
             <option value="female">Female</option>
             <option value="non-binary">Non-Binary</option>
@@ -66,40 +67,40 @@
         <label class="label" for="telephone">UK Phone Number Without Country Code (Optional):</label><br>
         <input class="phone-number" type="tel" id="telephone" name="telephone" pattern="[0-9]{11}" placeholder="02040636745"><br>
         <div id="availability-boxes">
-            <label class="check-label" for="checkboxes">When Are You Available?</label>
+            <p class="check-label">When Are You Available?</p>
             <ul class="checkboxes" id="checkboxes">
-                <li><label><input type="checkbox" name="monday6am" value="monday-6am-10am" />Monday 6AM-10AM</label></li>
-                <li><label><input type="checkbox" name="monday10am" value="monday-10am-2pm" />Monday 10AM-2PM</label></li>
-                <li><label><input type="checkbox" name="monday2pm" value="monday-2pm-6pm" />Monday 2PM-6PM</label></li>
-                <li><label><input type="checkbox" name="monday6pm" value="monday-6pm-10pm" />Monday 6PM-1OPM</label></li>
-                <li><label><input type="checkbox" name="tuesday6am" value="tuesday-6am-10am" />Tuesday 6AM-10AM</label></li>
-                <li><label><input type="checkbox" name="tuesday10am" value="tuesday-10am-2pm" />Tuesday 10AM-2PM</label></li>
-                <li><label><input type="checkbox" name="tuesday2pm" value="tuesday-2pm-6pm" />Tuesday 2PM-6PM</label></li>
-                <li><label><input type="checkbox" name="tuesday6pm" value="tuesday-6pm-10pm" />Tuesday 6PM-10PM</label></li>
-                <li><label><input type="checkbox" name="wednesday6am" value="wednesday-6am-10am" />Wednesday 6AM-10AM</label></li>
-                <li><label><input type="checkbox" name="wednesday10am" value="wednesday-10am-2pm" />Wednesday 10AM-2PM</label></li>
-                <li><label><input type="checkbox" name="wednesday2pm" value="wednesday-2pm-6pm" />Wednesday 2PM-6PM</label></li>
-                <li><label><input type="checkbox" name="wednesday6pm" value="wednesday-6pm-10pm" />Wednesday 6PM-10PM</label></li>
-                <li><label><input type="checkbox" name="thursday6am" value="thursday-6am-10am" />Thursday 6AM-10AM</label></li>
-                <li><label><input type="checkbox" name="thursday10am" value="thursday-10am-2pm" />Thursday 10AM-2PM</label></li>
-                <li><label><input type="checkbox" name="thursday2pm" value="thursday-2pm-6pm" />Thursday 2PM-6PM</label></li>
-                <li><label><input type="checkbox" name="thursday6pm" value="thursday-6pm-10pm" />Thursday 6PM-10PM</label></li>
-                <li><label><input type="checkbox" name="friday6am" value="friday-6am-10am" />Friday 6AM-10AM</label></li>
-                <li><label><input type="checkbox" name="friday10am" value="friday-10am-2pm" />Friday 10AM-2PM</label></li>
-                <li><label><input type="checkbox" name="friday2pm" value="friday-2pm-6pm" />Friday 2PM-6PM</label></li>
-                <li><label><input type="checkbox" name="friday6pm" value="friday-6pm-10pm" />Friday 6PM-10PM</label></li>
-                <li><label><input type="checkbox" name="saturday6am" value="saturday-6am-10am" />Saturday 6AM-10AM</label></li>
-                <li><label><input type="checkbox" name="saturday10am" value="saturday-10am-2pm" />Saturday 10AM-2PM</label></li>
-                <li><label><input type="checkbox" name="saturday2pm" value="saturday-2pm-6pm" />Saturday 2PM-6PM</label></li>
-                <li><label><input type="checkbox" name="saturday6pm" value="saturday-6pm-10pm" />Saturday 6PM-10PM</label></li>
-                <li><label><input type="checkbox" name="sunday6am" value="sunday-6am-10am" />Sunday 6AM-10AM</label></li>
-                <li><label><input type="checkbox" name="sunday10am" value="sunday-10am-2pm" />Sunday 10AM-2PM</label></li>
-                <li><label><input type="checkbox" name="sunday2pm" value="sunday-2pm-6pm" />Sunday 2PM-6PM</label></li>
-                <li><label><input type="checkbox" name="sunday6pm" value="sunday-6pm-10pm" />Sunday 6PM-10PM</label></li>
+                <li><label><input type="checkbox" name="monday6am" value="monday-6am-10am">Monday 6AM-10AM</label></li>
+                <li><label><input type="checkbox" name="monday10am" value="monday-10am-2pm">Monday 10AM-2PM</label></li>
+                <li><label><input type="checkbox" name="monday2pm" value="monday-2pm-6pm">Monday 2PM-6PM</label></li>
+                <li><label><input type="checkbox" name="monday6pm" value="monday-6pm-10pm">Monday 6PM-1OPM</label></li>
+                <li><label><input type="checkbox" name="tuesday6am" value="tuesday-6am-10am">Tuesday 6AM-10AM</label></li>
+                <li><label><input type="checkbox" name="tuesday10am" value="tuesday-10am-2pm">Tuesday 10AM-2PM</label></li>
+                <li><label><input type="checkbox" name="tuesday2pm" value="tuesday-2pm-6pm">Tuesday 2PM-6PM</label></li>
+                <li><label><input type="checkbox" name="tuesday6pm" value="tuesday-6pm-10pm">Tuesday 6PM-10PM</label></li>
+                <li><label><input type="checkbox" name="wednesday6am" value="wednesday-6am-10am">Wednesday 6AM-10AM</label></li>
+                <li><label><input type="checkbox" name="wednesday10am" value="wednesday-10am-2pm"/>Wednesday 10AM-2PM</label></li>
+                <li><label><input type="checkbox" name="wednesday2pm" value="wednesday-2pm-6pm">Wednesday 2PM-6PM</label></li>
+                <li><label><input type="checkbox" name="wednesday6pm" value="wednesday-6pm-10pm">Wednesday 6PM-10PM</label></li>
+                <li><label><input type="checkbox" name="thursday6am" value="thursday-6am-10am">Thursday 6AM-10AM</label></li>
+                <li><label><input type="checkbox" name="thursday10am" value="thursday-10am-2pm">Thursday 10AM-2PM</label></li>
+                <li><label><input type="checkbox" name="thursday2pm" value="thursday-2pm-6pm">Thursday 2PM-6PM</label></li>
+                <li><label><input type="checkbox" name="thursday6pm" value="thursday-6pm-10pm">Thursday 6PM-10PM</label></li>
+                <li><label><input type="checkbox" name="friday6am" value="friday-6am-10am">Friday 6AM-10AM</label></li>
+                <li><label><input type="checkbox" name="friday10am" value="friday-10am-2pm">Friday 10AM-2PM</label></li>
+                <li><label><input type="checkbox" name="friday2pm" value="friday-2pm-6pm">Friday 2PM-6PM</label></li>
+                <li><label><input type="checkbox" name="friday6pm" value="friday-6pm-10pm">Friday 6PM-10PM</label></li>
+                <li><label><input type="checkbox" name="saturday6am" value="saturday-6am-10am">Saturday 6AM-10AM</label></li>
+                <li><label><input type="checkbox" name="saturday10am" value="saturday-10am-2pm">Saturday 10AM-2PM</label></li>
+                <li><label><input type="checkbox" name="saturday2pm" value="saturday-2pm-6pm">Saturday 2PM-6PM</label></li>
+                <li><label><input type="checkbox" name="saturday6pm" value="saturday-6pm-10pm">Saturday 6PM-10PM</label></li>
+                <li><label><input type="checkbox" name="sunday6am" value="sunday-6am-10am">Sunday 6AM-10AM</label></li>
+                <li><label><input type="checkbox" name="sunday10am" value="sunday-10am-2pm">Sunday 10AM-2PM</label></li>
+                <li><label><input type="checkbox" name="sunday2pm" value="sunday-2pm-6pm">Sunday 2PM-6PM</label></li>
+                <li><label><input type="checkbox" name="sunday6pm" value="sunday-6pm-10pm">Sunday 6PM-10PM</label></li>
             </ul>
         </div>
         <div id="radio">
-            <label class="radio-label" for="radio">How Far Are You Willing to Travel?</label><br>
+            <p class="radio-label">How Far Are You Willing to Travel?</p><br>
             <input class="radio-input" type="radio" id="2.5km" name="2.5km" value="2.5km">
             <label class="radio-label" for="2.5km">2.5km</label>
             <input class="radio-input" type="radio" id="5km" name="5km" value="5km">
@@ -111,14 +112,15 @@
             <input class="radio-input" type="radio" id="over10km" name="over10km" value="over10km">
             <label class="radio-label" for="over10km">Over 10km</label>
         </div>
-    <label class="label" for="sportingexperience">Tell Us About Your Current Fitness Level and Any Previous Sporting Experience:</label><br>
+    <p class="label">Tell Us About Your Current Fitness Level and Any Previous Sporting Experience:</p><br>
     <textarea class="text-input" name="sportingexperience" rows="10" cols="60"></textarea><br>
 
-    <label class="label" for="healthconditions">Please Let Us Know if You Are Affected by Any Medical Conditions or Chronic Injury:</label><br>
+    <p class="label">Please Let Us Know if You Are Affected by Any Medical Conditions or Chronic Injury:</p><br>
     <textarea class="text-input" name="healthconditions" rows="10" cols="60"></textarea><br>
 
     <label class="label" for="whichsport">Which Sport Are You Most Interested in Joining?</label><br>
     <select class="select-input" id="whichsport" name="whichsport" required>
+        <option value=""></option>
         <option value="tennis">Tennis</option>
         <option value="badminton">Badminton</option>
         <option value="touchrugby">Touch Rugby</option>            
@@ -130,15 +132,15 @@
         <option value="running">Running</option>
     </select><br>
 
-    <label class="label" for="havent-found">Haven't Found What You're Looking For? Pop Your Question in Here!</label><br>
+    <p class="label">Haven't Found What You're Looking For? Pop Your Question in Here!</p><br>
     <textarea class="text-input" name="havent-found" rows="10" cols="60"></textarea><br>
 
-    <input class="submit-button grow" type="submit" class="submit-buttom" value="Submit">
+    <input class="submit-button grow" type="submit" value="Submit">
 </form>
 
-</section>
+</div>
 <!--Footer-->
-<section class="footer">
+<div class="footer">
     <div class="footerdiv">
         <ul class="socials">
             <li class="grow">
@@ -155,7 +157,7 @@
             </li>
         </ul>
     </div>
-</section>
+</div>
     
 </body>
 </html>
