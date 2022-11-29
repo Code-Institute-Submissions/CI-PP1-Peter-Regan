@@ -1151,7 +1151,7 @@ i {
     
 }
 
-/* Isolated Media Queries Pages  and 3 */
+/* Isolated Media Queries Page 3 */
  @media screen and (max-width:950px) {
     #signup-heading {font-size: 40px;}
     
@@ -1159,6 +1159,11 @@ i {
 
  @media screen and (max-width:515px) {
     #signup-heading {font-size: 30px;}
+    
+ }
+
+ @media screen and (max-width:200px) {
+    .invite-text {font-size: 100%;}
     
  }
 
