@@ -957,9 +957,40 @@ i {
 @media screen and (max-width: 400px) {
     #what-we-offer, .available-sport-text {font-size: 3vw;
 }
-    
 }
-    
+   
+/* Media Queries for Page 3 */
+
+@media screen and (max-width:950px) {
+    #signup-heading {font-size: 40px;}
+    }
+
+    .invite-text {font-size: 120%;}
+
+@media screen and (max-width:650px) {
+    #signup-heading {
+       text-align: center;
+    }
+
+    #signup-invite {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.5fr 0.5fr;
+    }
+
+    .invite-text {
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        text-align: center;
+    }
+
+    .invite-playlist {
+        display: flex;
+        justify-content: center;
+        margin: auto;
+    }
+}    
 
 
       
