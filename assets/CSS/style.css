@@ -653,6 +653,8 @@ i {
 
 @media screen and (max-width: 950px) {
 
+    h2 {margin:0;}
+
     #logo {
         font-size: 200%;
         letter-spacing: 2px;
@@ -702,6 +704,7 @@ i {
     margin: auto;
     text-align: center;
    }
+   
 
    .blurb1 {
     margin-bottom: 0;
@@ -713,7 +716,14 @@ i {
 
    #about-us-expanded h2 {
     text-align: center;
+    margin: 0;
    }
+
+   #about-us-expanded p {
+    margin: 0;
+   }
+
+
 
    #what-we-do-container {
     display: grid;
@@ -727,8 +737,9 @@ i {
     margin: auto;
     display: flex;
     height: 100%;
-    
-  }
+    }
+
+    #swimmer-image {margin: 0;}
 
   #what-we-do {
     text-align: center;
@@ -738,11 +749,10 @@ i {
     padding-bottom: 75px;
   }
 
-
-  
-  #vacancies-heading {
+    #vacancies-heading {
     text-align: center;
-    margin: auto;
+    margin: 0;
+    padding: 0;
   }
 }
 
@@ -762,21 +772,36 @@ i {
     .nested-container {
             grid-template-columns: 1fr;
             grid-template-rows: 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr;  
-            height: 100%;  
-            
+            height: 100%;   
         }
 
         .grid-item {
             margin: 25px;   
+            min-height: 275px;
         }
     
         .grid-item2 {
             margin: 25px;
-            
+            text-align: center;
+            min-height: 275px;
             }
-        
+
         .p1 {margin-top: 10%;
+            height: 100%;
+            width: 100%;
         }
+
+        .p2 {margin-top: 20%;
+            height: 100%;
+            width: 100%;
+        }
+}
+
+@media screen and (max-width:400px) {
+    .p1, .p2 {
+        margin-top: 40%;
+    }
+    
 }
 
 @media screen and (max-width: 750px) {
@@ -813,13 +838,13 @@ i {
 
 @media screen and (max-width: 400px) {
     .p1, .p2 {
-        font-size: 5vw;
+        font-size: medium;
     }
 }
 
 @media screen and (max-width: 320px) {
     .p1, .p2 {
-        font-size: 4vw;
+        font-size: medium;
     }
 }
 
@@ -839,6 +864,23 @@ i {
     #what-we-do {
         font-size: 3vw;
     }
+}
+
+@media screen and (max-width:1200px) {
+    #about-us-expanded > h2, #vancancies-heading {font-size: 40px;}
+    
+}
+
+@media screen and (max-width:515px) {
+   #about-us-expanded > h2, #vacancies-heading {font-size: 30px;}
+}
+
+@media screen and (max-width:320px) {
+    .grid-image {
+        object-fit: cover;
+        overflow: hidden;
+    }
+    
 }
 
 /* Media Query Page 2 */
