@@ -992,6 +992,47 @@ i {
     }
 }    
 
+@media screen and (max-width: 850px) {
+    .checkboxes {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: auto auto auto auto auto auto auto auto auto auto auto auto auto auto; 
+        row-gap: 5px;  
+        padding: 25px 25px 0px 0px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .checkboxes {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto; 
+        row-gap: 5px;  
+        padding: 25px 25px 0px 0px;
+    }
+    
+}
+
+@media screen and (max-width:1130px) {
+    #radio {
+        margin-bottom: 25px;
+        margin-top: 25px;
+        margin-left: 25px;
+    }
+    
+    .radio-input {
+        margin-top: 25px;
+    }
+    
+    .radio-label {
+        margin-right: 25px;
+    }
+}
+
+@media screen and (max-width:750px) {
+    .radio-label {margin-right:100%;}
+    
+}
 
       
     
