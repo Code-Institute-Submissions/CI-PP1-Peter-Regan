@@ -1074,6 +1074,14 @@ i {
     
 }
 
+@media screen and (max-width:300px) {
+    .submit-button {
+        text-align: center;
+        font-size: medium;
+    }
+    
+}
+
       
     
 
