@@ -595,7 +595,7 @@ input[type=checkbox] {
     }
 
     #what-we-do > p {
-        font-size: 2000%;
+        font-size: 200%;
         margin-left: 50px;
         padding-top: 50px;
     }
@@ -640,13 +640,19 @@ input[type=checkbox] {
     }   
 
 i {
-    padding-left: 50px;
-    padding-right: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 0;
     }
 
 .footerdiv {
     font-size: 20px;
+    max-width: 100%;
     }
+
+    #footer, .footer {max-width: 100%;}
+
+    
 }
 
 /* Media Query for 950px */
@@ -805,12 +811,14 @@ i {
 }
 
 @media screen and (max-width: 750px) {
-    i {padding: 25px;
+    i {margin: 25px;
+        padding:0;
     }
 }
 
 @media screen and (max-width: 550px) {
-    i {padding: 5px}
+    i {margin: 5px;
+    padding:0;}
 }
 
 @media screen and (max-width: 515px) {
@@ -992,9 +1000,16 @@ i {
 }
 
 @media screen and (max-width: 515px) {
-    #what-we-offer, .available-sport-text {font-size: 2.5vw;}
+    #what-we-offer, .available-sport-text {font-size: 2.5vw;
+    text-align: center;}
 
-    #what-we-offer h2, .available-sport-text h2 {font-size: 30px;}
+    #what-we-offer h2, .available-sport-text h2 {font-size: 30px;
+    text-align: center;}
+
+    .available-sport-text h2 {
+        display: flex;
+        justify-content: center;
+    }
 }
 
 @media screen and (max-width: 400px) {
@@ -1005,14 +1020,25 @@ i {
 /* Media Queries for Page 3 */
 
 @media screen and (max-width:950px) {
-    #signup-heading {font-size: 40px;}
+    #signup-heading {font-size: 40px;
     }
+    
 
-    .invite-text {font-size: 120%;}
+    .invite-text {font-size: 120%;
+    margin: 0;
+    padding: 0;}
+
+    #invite1 {
+        margin: 25px auto auto auto;
+        padding: 0;
+    }
+}
+
 
 @media screen and (max-width:650px) {
     #signup-heading {
        text-align: center;
+       margin: 25px auto auto auto;
     }
 
     #signup-invite {
@@ -1124,6 +1150,18 @@ i {
     }
     
 }
+
+/* Isolated Media Queries Pages  and 3 */
+ @media screen and (max-width:950px) {
+    #signup-heading {font-size: 40px;}
+    
+ }
+
+ @media screen and (max-width:515px) {
+    #signup-heading {font-size: 30px;}
+    
+ }
+
 
       
     
