@@ -32,13 +32,13 @@ For this project I used GitHub to both host and deploy my repository. GitHub's b
 To begin with, I had an initial rough mental image of how the three pages of the site would look as represented by the photos inserted here.
 
 
-![Rough Layout of Home Page](https://github.com/sonetto104/CI-PP1-Peter-Regan/blob/main/assets/README%20Images/Home%20Page%20Layout.jpg)
+![Rough Layout of Home Page](https://github.com/sonetto104/CI-PP1-Peter-Regan/blob/main/assets/README%20Images/homepagelayout.jpg)
 
 
-![Rough Layout of Available Sports Page](https://github.com/sonetto104/CI-PP1-Peter-Regan/blob/main/assets/README%20Images/Available%20Sports%20Layout.jpg)
+![Rough Layout of Available Sports Page](https://github.com/sonetto104/CI-PP1-Peter-Regan/blob/main/assets/README%20Images/availablesportslayout.jpg)
 
 
-![Rough Layout of Sign Up Page](https://github.com/sonetto104/CI-PP1-Peter-Regan/blob/main/assets/README%20Images/Sign%20Up%20Layout.jpg)
+![Rough Layout of Sign Up Page](https://github.com/sonetto104/CI-PP1-Peter-Regan/blob/main/assets/README%20Images/signuplayout.jpg)
 
 
 
@@ -46,10 +46,10 @@ Frankly, this was not a good approach. It would have been far more efficient to 
 
 
 ***Colour Scheme***
-I used primarily navy and white for the website. This was in order to make sure elements could be easily contrasted but without making the mood of the website too severe. The site aims to make users feel positive and lighthearted about sport after all. ![Screenshot of Sport Spotters Homepage](https://github.com/sonetto104/CI-PP1-Peter-Regan/blob/main/assets/README%20Images/Sport%20Spotters%20Home.png)
+I used primarily navy and white for the website. This was in order to make sure elements could be easily contrasted but without making the mood of the website too severe. The site aims to make users feel positive and lighthearted about sport after all. ![Screenshot of Sport Spotters Homepage](https://github.com/sonetto104/CI-PP1-Peter-Regan/blob/main/assets/README%20Images/sportspottershome.png)
 
 
-![Sport Spotters What We Do Section](https://github.com/sonetto104/CI-PP1-Peter-Regan/blob/main/assets/README%20Images/Sport%20Spotters%20What%20We%20Do.png)
+![Sport Spotters What We Do Section](https://github.com/sonetto104/CI-PP1-Peter-Regan/blob/main/assets/README%20Images/sportspotterswhatwedo.png)
 
 
 
@@ -60,16 +60,16 @@ The fonts used were Lobster and Signika, both of which I took from Google Fonts.
 ***Grid and Flex Layouts***
 I used grid and flex layouts to arrange images and text in a way that adds visual variety to the site while maintaining balance between visual elements. These layouts are also responsive to screen size. I've attached screenshots of some of these layouts below so you can see how they change depending on screen size.
 
-![Availability Page Larger Grid Layout](https://github.com/sonetto104/CI-PP1-Peter-Regan/blob/main/assets/README%20Images/Available%20Page%20Large%20Grid.png)
+![Availability Page Larger Grid Layout](https://github.com/sonetto104/CI-PP1-Peter-Regan/blob/main/assets/README%20Images/availablepagelargegrid.png)
 
 
-![Availability Page Smaller Grid Layout](https://github.com/sonetto104/CI-PP1-Peter-Regan/blob/main/assets/README%20Images/Available%20Page%20Small%20Grid.png)
+![Availability Page Smaller Grid Layout](https://github.com/sonetto104/CI-PP1-Peter-Regan/blob/main/assets/README%20Images/availablepagesmallgrid.png)
 
 
-![Home Page Larger Grid Layout](https://github.com/sonetto104/CI-PP1-Peter-Regan/blob/main/assets/README%20Images/Home%20Page%20Large%20Grid.png)
+![Home Page Larger Grid Layout](https://github.com/sonetto104/CI-PP1-Peter-Regan/blob/main/assets/README%20Images/homepagelargegrid.png)
 
 
-![Home Smaller Grid Layout](https://github.com/sonetto104/CI-PP1-Peter-Regan/blob/main/assets/README%20Images/Home%20Page%20Small%20Grid.png)
+![Home Smaller Grid Layout](https://github.com/sonetto104/CI-PP1-Peter-Regan/blob/main/assets/README%20Images/homepagesmallgrid.png)
 
 
 
@@ -85,20 +85,20 @@ Rather than listing item section by section, I will here list what I think the m
 The header is one of the most important parts of this site. It immediately states the site's colour scheme, contains the logo and contains the navigation elements. In terms of visual appeal, it also introduces the font for headings and each text element has a "grow" effect when hovered over. In terms of providing value to the user, it clearly sign posts the three pages of the website and states their purpose.
 
 
-![Header](https://github.com/sonetto104/CI-PP1-Peter-Regan/blob/main/assets/README%20Images/Header.png)
+![Header](https://github.com/sonetto104/CI-PP1-Peter-Regan/blob/main/assets/README%20Images/header.png)
 
 
 ***Vacancies Grid***
 On the home page or "About Us" page, there is a grid displaying some sports clubs that currently have some vacancies. From the perspective of visual appeal, the grid layout and images are pleasing. There is a dark translucent background effect on the images created by using z-positioning to overlap a partially opaque black div with the images in the grid. This also allows a contrast between the background image and foreground text. The text also has a grow effect like the links in the header. In terms of adding value for a user, it alerts a user to the very possibility of enacting their purpose for visiting the site in the first place. Seeing what may be immediately available may bring them one step closer to joining a sport.
 
 
-![Vacancies Grid on "About Us" Page](https://github.com/sonetto104/CI-PP1-Peter-Regan/blob/main/assets/README%20Images/Home%20Page%20Large%20Grid.png)
+![Vacancies Grid on "About Us" Page](https://github.com/sonetto104/CI-PP1-Peter-Regan/blob/main/assets/README%20Images/homepagelargegrid.png)
 
 
 ***Footer***
 The footer contains icons which act as links to Sport Spotters would-be social media. Visually, the icons communicate much more economically than words. In terms of adding value for a user, they would allow the user to connect with the wider Sport Spotters community (if it existed).
 
-![Footer](https://github.com/sonetto104/CI-PP1-Peter-Regan/blob/main/assets/README%20Images/Footer.png)
+![Footer](https://github.com/sonetto104/CI-PP1-Peter-Regan/blob/main/assets/README%20Images/footer.png)
 
 
 ***Available Sports List***
@@ -106,21 +106,21 @@ The list of available sports acts as a starting point for someone who is interes
 
 
 
-![Available Sports List](https://github.com/sonetto104/CI-PP1-Peter-Regan/blob/main/assets/README%20Images/Availability%20List.png)
+![Available Sports List](https://github.com/sonetto104/CI-PP1-Peter-Regan/blob/main/assets/README%20Images/availabilitylist.png)
 
 
 ***Spotify Playlist***
 On the Sign Up page, there is a widget that allows one to play music from a Spotify playlist. I found a workout inspired playlist to fit in with the theme of the site. Truthfully, I do not think there is really a need for this in the website nor is it music I would want to listen to myself. I have included it because part of the learning objectives was to design a site where the user had control over playing video or audio. If we imagine a scenario where this might fit ideally into some part of an expanded Sport Spotters website, this may give the user some workout inspiration.
 
 
-![Spotify Playlist](https://github.com/sonetto104/CI-PP1-Peter-Regan/blob/main/assets/README%20Images/Spotify%20Playlist.png)
+![Spotify Playlist](https://github.com/sonetto104/CI-PP1-Peter-Regan/blob/main/assets/README%20Images/spotifyplaylist.png)
 
 
 ***Sign-Up Form***
 The sign-up form is an important feature of the site. In visual terms, it is consistent with the colour and font schemes. Using several different types of inputs, some required more styling than others, such as the checkboxes that indicate a user's availability or the radio boxes that indicate how far they might be willing to travel. The layout was achieved using grid dispaly again and the inputs are responsive to screen size. As this site is for learning purposes and I won't be handling any data, information from the submitted form will be sent to the Code Institute form dump from the Love Running walkthrough project. In terms of providing value to the user, it allows the user to provide the information that makes the Sport Spotters service actually possible, and it ensures that the service is catered specifically to them.
 
 
-![Sign-Up Form](https://github.com/sonetto104/CI-PP1-Peter-Regan/blob/main/assets/README%20Images/Sign-Up%20Form.png)
+![Sign-Up Form](https://github.com/sonetto104/CI-PP1-Peter-Regan/blob/main/assets/README%20Images/signupform.png)
 
 
 ***Aria Labels***
