@@ -117,7 +117,20 @@ On the Sign Up page, there is a widget that allows one to play music from a Spot
 
 
 ***Sign-Up Form***
-The sign-up form is an important feature of the site. In visual terms, it is consistent with the colour and font schemes. Using several different types of inputs, some required more styling than others, such as the checkboxes that indicate a user's availability or the radio boxes that indicate how far they might be willing to travel. The layout was achieved using grid dispaly again and the inputs are responsive to screen size. As this site is for learning purposes and I won't be handling any data, information from the submitted form will be sent to the Code Institute form dump from the Love Running walkthrough project. In terms of providing value to the user
+The sign-up form is an important feature of the site. In visual terms, it is consistent with the colour and font schemes. Using several different types of inputs, some required more styling than others, such as the checkboxes that indicate a user's availability or the radio boxes that indicate how far they might be willing to travel. The layout was achieved using grid dispaly again and the inputs are responsive to screen size. As this site is for learning purposes and I won't be handling any data, information from the submitted form will be sent to the Code Institute form dump from the Love Running walkthrough project. In terms of providing value to the user, it allows the user to provide the information that makes the Sport Spotters service actually possible, and it ensures that the service is catered specifically to them.
+
+
+![Sign-Up Form](https://github.com/sonetto104/CI-PP1-Peter-Regan/blob/main/Sign-Up%20Form.png)
+
+
+***Aria Labels***
+Almost all non-text elements have aria labels where appropriate in the site. This makes the site accessible to those who may be visually impaired.
+
+
+## Testing ##
+
+
+
 
 
 
