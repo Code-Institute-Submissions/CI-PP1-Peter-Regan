@@ -131,7 +131,7 @@ Almost all non-text elements have aria labels where appropriate in the site. Thi
 
 ***HTML and CSS Testing***
 
-All HTML files and the CSS style sheet were tested using the W3C Validator and Jigsaw Validator. Some warnings and errors were noted. I corrected these errors and retested. The HTML files and CSS style sheet passed the validation with out errors or warnings.
+All HTML files and the CSS style sheet were tested using the W3C Validator and Jigsaw Validator. Some warnings and errors were noted. I corrected these errors and retested. The HTML files and CSS style sheet passed the validation without errors or warnings.
 
 
 ***Manual Testing***
