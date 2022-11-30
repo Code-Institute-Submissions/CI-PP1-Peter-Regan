@@ -23,9 +23,9 @@ For this project I used GitHub to both host and deploy my repository. GitHub's b
 ***Layout and General Structure***
 To begin with, I had an initial rough mental image of how the three pages of the site would look as represented by the photos inserted here.
 
-![Rough Layout of Home Page](https://drive.google.com/file/d/1nRDD8-IRYkzsggsceixMmXfs7cEnKR66/view?usp=share_link)
-![Rough Layout of Available Sports Page](https://drive.google.com/file/d/1GVE3QN4rTEI7MPMvfjHVmKOh6TsLMdeC/view?usp=share_link)
-![Rough Layout of Sign Up Page](https://drive.google.com/file/d/1xmNPSEclQ9XwrkGevHmOABrZRtlbiaMY/view?usp=share_link)
+![Rough Layout of Home Page](https://github.com/sonetto104/CI-PP1-Peter-Regan/blob/main/Home%20Page%20Layout.jpg)
+![Rough Layout of Available Sports Page](https://github.com/sonetto104/CI-PP1-Peter-Regan/blob/main/Available%20Sports%20Layout.jpg)
+![Rough Layout of Sign Up Page](https://github.com/sonetto104/CI-PP1-Peter-Regan/blob/main/Sign%20Up%20Layout.jpg)
 
 Frankly, this was not a good approach. It would have been far more efficient to use a wireframing tool like Balsamiq. This would have allowed me to build a better defined structure that would have made styling and implementing media queries much simpler and more effective later on. However, I was not aware of this at the time.
 
