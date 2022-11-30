@@ -129,7 +129,49 @@ Almost all non-text elements have aria labels where appropriate in the site. Thi
 
 ## Testing ##
 
+***HTML and CSS Testing***
 
+All HTML files and the CSS style sheet were tested using the W3C Validator and Jigsaw Validator. Some warnings and errors were noted. I corrected these errors and retested. The HTML files and CSS style sheet passed the validation with out errors or warnings.
+
+
+***Manual Testing***
+
+In terms of manual tests I:
+   1. Checked that all the header links on each of the 3 pages worked.
+   2. Checked that all of the footer links on each of the 3 pages worked and opened in a new tab.
+   3. Checked that the Sign-Up form worked and sent data to the Code Institute form dump.
+   4. Checked that there were no overlapping text or visual elements at varied screen sizes, and checked that there were no disappearing elements at varied screen
+   sizes.
+   5. Checked that the website loads in Google Chrome, Microsoft Edge and Mozilla Firefoz web browsers.
+   6. Used https://ui.dev/amiresponsive and www.responsinator.com to see if the site worked in mobile view.
+   
+## Code From External Sources ##
+
+The code used to create the grow effect on the hero image, navigation elements, footer links and grid text came from this source: https://travis.media/how-to-make-an-item-grow-on-hover-with-css/
+
+The code I used as a basis to inform how to make grid layouts came from this source: https://www.w3schools.com/css/css_grid.asp
+
+Though I did not copy code directly from this source, I used this source as a starting point in learning how to use flex display: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+
+The aria labels I used for my footer links are a direct copy of what was used in the Love Running walk through project.
+
+
+##Issues With The Project and Learning Points##
+
+
+Having come through my first Portfolio Project, I have learned some things that must change in my approach. It would have been far more efficient to construct a wireframe website first, with no text or images but with all the necessary structural elements in place before content was added. This would make the styling process and particularly adding media queries much easier and more economical. My "learn-as-you-go" approach made the process more arduous and time-consuming and has resulted in an extremely long CSS style sheet.
+
+
+It would be useful to add aria-labels as I go along and to check for spelling mistakes and duplicates before testing the HTML and CSS files. There wouldn't be a need to retest the files several times in this case.
+
+
+I am aware that approaching a certain screen size, some elements of the site are not ideally balanced. Given the submission deadline, some of these will remain in the final project. However, going forward as I develop a better understanding of CSS positioning, with particular regard to flex and grid, I should be able to avoid this in future. Similarly, creating wireframes for small screen sizes first that can be scaled upwards will also help me to be more efficient.
+
+
+
+
+
+   
 
 
 
