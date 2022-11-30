@@ -1,108 +1,51 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+## README Document for Code Institute Portfolio Project 1 "Sport Spotters"
 
-Welcome sonetto104,
+## Purpose
+"Sport Spotters" was constructed as a requirement for Code Institute's Diploma in Full Stack Software Development course. Its purpose is to show that I have achieved a basic command of HTML and CSS languages, and that I can combine the two to create a three-page static website.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+In its imagined context, Sport Spotters is a service that connects people in London who are looking to take up sport at a social level with clubs or classes suited to their needs. Users are invited to fill out a sign-up form detailing their past sporting experience, availability, contact details, postcode, sport of interest, any relevant health conditions and willingness to travel. Sport Spotters would then connect them with an ideally suited sports club based on the information provided.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+## Imagined User Stories Informing Purpose
+This service would be primarily aimed at people who work full-time but want to be physically active, people who may have been active in sport before and want to revisit it, people who are new to London or people who simply want to try a new activity and don't know where to begin.
 
-## Gitpod Reminders
+Working full-time in a major city is demanding and often requires spending significant amounts of time commuting. With many responsibilities  outside of work to take care of, taking the time to research where one could take up sport regularly can be difficult, even if one would really like to. In a city of London's size and population, it is also easy to be overwhelmed by too much information. These could be factors that may discourage someone from taking the leap into sport, even if they feel they may be lacking community outside of work or aren't physically active enough.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+Moving to a new city is very daunting, and despite community-building being one of the most important factors in creating and maintaining wellbeing, it is something that can easily be neglected when one has to take care of a new home, new job, the new administrative responsibilities that accompany this and even simple problems like learning how to get around.
 
-`python3 -m http.server`
+## Value Provided to Users by Sport Spotters
+Sport Spotters would be a service to take care of those obstacles that prevent someone from joining a new sports club. If one is too tired or time-pressed from work, or is bamboozled by the sheer amount of choice in London, this service would remove the greater part of the mental energy, effort and research required to make a decision on where to start.
 
-A blue button should appear to click: _Make Public_,
+## Technologies Used
+For this project I used GitHub to both host and deploy my repository. GitHub's built in code editor allowed me to make a primarily HTML site. I made an external style sheet in using CSS and linked it to the website's HTML files to style each webpage. Media queries were used in the CSS style sheet to make sure the website is responsive to differing screen sizes.
 
-Another blue button should appear to click: _Open Browser_.
+## Design
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+***Layout and General Structure***
+To begin with, I had an initial rough mental image of how the three pages of the site would look as represented by the photos inserted here.
 
-A blue button should appear to click: _Make Public_,
+![Rough Layout of Home Page](https://drive.google.com/file/d/1nRDD8-IRYkzsggsceixMmXfs7cEnKR66/view?usp=share_link)
+![Rough Layout of Available Sports Page](https://drive.google.com/file/d/1GVE3QN4rTEI7MPMvfjHVmKOh6TsLMdeC/view?usp=share_link)
+![Rough Layout of Sign Up Page](https://drive.google.com/file/d/1xmNPSEclQ9XwrkGevHmOABrZRtlbiaMY/view?usp=share_link)
 
-Another blue button should appear to click: _Open Browser_.
+Frankly, this was not a good approach. It would have been far more efficient to use a wireframing tool like Balsamiq. This would have allowed me to build a better defined structure that would have made styling and implementing media queries much simpler and more effective later on. However, I was not aware of this at the time.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+***Colour Scheme***
+I used primarily navy and white for the website. This was in order to make sure elements could be easily contrasted but without making the mood of the website too severe. The site aims to make users feel positive and lighthearted about sport after all. ![Screenshot of Sport Spotters Homepage](https://drive.google.com/file/d/12DlNP04rmtC9IIwjLJOm0-E8oteyJq2G/view?usp=share_link)
+![Sport Spotters What We Do Section](https://drive.google.com/file/d/1-80Vc_jJH4FGuyoyorQ2bHib_Iw9Or1D/view?usp=share_link)
 
-To log into the Heroku toolbelt CLI:
+***Fonts***
+The fonts used were Lobster and Signika, both of which I took from Google Fonts. I used Lobster for the logo and headings as I wanted a font that felt lighthearted and friendly without seeming childish. Signika was a more appropriate neutral font for the rest of the text elements to make them easily legible.
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+***Grid and Flex Layouts***
+I used grid and flex layouts to arrange images and text in a way that adds visual variety to the site while maintaining balance between visual elements. These layouts are also responsive to screen size. I've attached screenshots of some of these layouts below so you can see how they change depending on screen size.
+![Availability Page Larger Grid Layout](https://drive.google.com/file/d/1_Ze17z1MP1CYRNo8lfNHHOUrpLk5oFDr/view?usp=share_link)
+![Availability Page Smaller Grid Layout](https://drive.google.com/file/d/14T00GwOzuDcK1lwv22yAhpoLp4imp_HJ/view?usp=share_link)
+![Home Page Larger Grid Layout](https://drive.google.com/file/d/1GduLjHJLFPO5nl5mka85SJNAxlSP3L1N/view?usp=share_link)
+![Home Smaller Grid Layout](https://drive.google.com/file/d/1RhTCvc_hetJYEsGPVXKl__eeOoPyrrlY/view?usp=share_link)
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+***Images***
+All the images for this project were taken from www.pexels.com. Using one source for images allowed me to choose images that were consistent in tone. It was important to me that images conveyed a sense of enjoyment in sport, and that they looked like they could at least potentially have been taken in London where Sports Spotters would be based.
 
-------
+## Project Features
 
-## Release History
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
-
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
-
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
-
-**July 2 2021:** Remove extensions that are not available in Open VSX.
-
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
-
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
-
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
-
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
