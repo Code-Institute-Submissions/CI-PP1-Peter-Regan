@@ -156,7 +156,7 @@ Though I did not copy code directly from this source, I used this source as a st
 The aria labels I used for my footer links are a direct copy of what was used in the Love Running walk through project.
 
 
-##Issues With The Project and Learning Points##
+## Issues With The Project and Learning Points ##
 
 
 Having come through my first Portfolio Project, I have learned some things that must change in my approach. It would have been far more efficient to construct a wireframe website first, with no text or images but with all the necessary structural elements in place before content was added. This would make the styling process and particularly adding media queries much easier and more economical. My "learn-as-you-go" approach made the process more arduous and time-consuming and has resulted in an extremely long CSS style sheet.
