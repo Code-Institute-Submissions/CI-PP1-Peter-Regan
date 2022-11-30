@@ -746,6 +746,10 @@ i {
 
 /* Isolated Media Queries for index.html */
 
+@media screen and (max-width:1200px) {
+    #about-us-expanded > h2, #vancancies-heading {font-size: 40px;}
+}
+
 @media screen and (max-width: 750px) {
     i {margin: 25px;
         padding:0;
@@ -796,48 +800,15 @@ i {
     padding:0;}
 }
 
+@media screen and (max-width:515px) {
+    #about-us-expanded > h2, #vacancies-heading {font-size: 30px;}
+ }
+
 @media screen and (max-width: 515px) {
     #nav-menu > li {
         font-size: 75%; 
         line-height: 5px;   
     }   
-}
-
-@media screen and (max-width: 440px) {
-    #navbar {height:200px;}
-
-    #nav-menu > li {
-        font-size: 50%;
-        line-height: 20px;
-    }
-
-    #logo {
-        font-size: 150%;
-    }    
-} 
-
-@media screen and (max-width:400px) {
-    .p1, .p2 {
-        margin-top: 40%;
-        font-size: medium;
-    }
-    
-}
-
-@media screen and (max-width: 265px) {
-    #navbar {height:400px;}
-}
-
-@media screen and (max-width: 400px) {
-    .p1, .p2 {
-        font-size: medium;
-    }
-}
-
-@media screen and (max-width: 320px) {
-    .p1, .p2 {
-        font-size: medium;
-    }
 }
 
 @media screen and (max-width: 450px) {
@@ -858,13 +829,30 @@ i {
     }
 }
 
-@media screen and (max-width:1200px) {
-    #about-us-expanded > h2, #vancancies-heading {font-size: 40px;}
-    
+@media screen and (max-width: 440px) {
+    #navbar {height:200px;}
+
+    #nav-menu > li {
+        font-size: 50%;
+        line-height: 20px;
+    }
+
+    #logo {
+        font-size: 150%;
+    }    
+} 
+
+@media screen and (max-width:400px) {
+    .p1, .p2 {
+        margin-top: 40%;
+        font-size: medium;
+    }
 }
 
-@media screen and (max-width:515px) {
-   #about-us-expanded > h2, #vacancies-heading {font-size: 30px;}
+@media screen and (max-width: 320px) {
+    .p1, .p2 {
+        font-size: medium;
+    }
 }
 
 @media screen and (max-width:320px) {
@@ -872,10 +860,13 @@ i {
         object-fit: cover;
         overflow: hidden;
     }
-    
 }
 
-/* Media Query Page 2 */
+@media screen and (max-width: 265px) {
+    #navbar {height:400px;}
+}
+
+/* Media Query for availablesports.html */
 
 @media  screen and (max-width: 1200px) {
     #available-sports {
@@ -909,7 +900,6 @@ i {
         width: 100%;
         grid-template-columns: 1fr;
         grid-template-rows: 0.75fr 0.75fr 0.75fr 0.75fr 0.75fr 0.75fr 0.75fr 0.75fr 0.75fr 0.75fr 0.75fr 0.75fr 0.75fr 0.75fr 0.75fr 0.75fr 0.75fr 0.75fr;
-
     }
 
    .available-sport-text {
@@ -932,10 +922,9 @@ i {
 @media  screen and (max-width: 700px) {
     #what-we-offer {font-size: 2vw;}
 }
+
  @media screen and (max-width: 650px) {
-
-
-    #available-sports {
+        #available-sports {
         height: auto;
         width: 100%;
     }
@@ -977,9 +966,6 @@ i {
         margin: 0;
         padding: 0;
     }
-
-
-    
 }
 
 @media screen and (max-width: 515px) {
@@ -1000,13 +986,28 @@ i {
 }
 }
    
-/* Media Queries for Page 3 */
+/* Media Queries for signup.html */
+
+@media screen and (max-width:1130px) {
+    #radio {
+        margin-bottom: 25px;
+        margin-top: 25px;
+        margin-left: 25px;
+    }
+    
+    .radio-input {
+        margin-top: 25px;
+    }
+    
+    .radio-label {
+        margin-right: 25px;
+    }
+}
 
 @media screen and (max-width:950px) {
     #signup-heading {font-size: 40px;
     }
     
-
     .invite-text {font-size: 120%;
     margin-left: 25px;
     padding: 0;}
@@ -1015,6 +1016,52 @@ i {
         margin: 25px auto auto auto;
         padding: 0;
     }
+}
+
+@media screen and (max-width: 850px) {
+    #availability-boxes {
+        width: 80%;
+        margin: auto;
+        padding-top: 25px;
+        padding-left: 10%;
+    }
+
+    .checkboxes {
+        display: grid;
+        grid-template-columns: 40% 40%;
+        grid-template-rows: auto auto auto auto auto auto auto auto auto auto auto auto auto auto; 
+        row-gap: 5px;  
+        margin: 25px 0px 25px 0;
+        padding: 0 0 0 10%;
+    }
+}
+
+@media screen and (max-width:820px) {
+    .signup-form {
+        margin: 0;
+        background-color: #2d2b4210;
+        border-radius: 10px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:780px) {
+    .text-input {max-width: 75%;
+    }
+    
+    .select-input {max-width: 75%;
+    }
+
+    input {max-width: 75%
+    }
+
+    #availability-boxes {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width:750px) {
+    .radio-label {margin-right:100%;}
 }
 
 
@@ -1042,28 +1089,11 @@ i {
         justify-content: center;
         margin: auto;
     }
-}    
+}  
 
-@media screen and (max-width: 850px) {
-    #availability-boxes {
-        width: 80%;
-        margin: auto;
-        padding-top: 25px;
-        padding-left: 10%;
-    }
-
-    .checkboxes {
-        display: grid;
-        grid-template-columns: 40% 40%;
-        grid-template-rows: auto auto auto auto auto auto auto auto auto auto auto auto auto auto; 
-        row-gap: 5px;  
-        margin: 25px 0px 25px 0;
-        padding: 0 0 0 10%;
-    }
-
-    
-    
-    
+@media screen and (max-width:600px) {
+    label {display:block;}
+    .radio-label {margin:0;}
 }
 
 @media screen and (max-width: 500px) {
@@ -1074,56 +1104,6 @@ i {
         row-gap: 5px;  
         padding: 25px 0px 0px 0px;
     }
-    
-}
-
-@media screen and (max-width:1130px) {
-    #radio {
-        margin-bottom: 25px;
-        margin-top: 25px;
-        margin-left: 25px;
-    }
-    
-    .radio-input {
-        margin-top: 25px;
-    }
-    
-    .radio-label {
-        margin-right: 25px;
-    }
-}
-
-@media screen and (max-width:750px) {
-    .radio-label {margin-right:100%;}
-}
-
-@media screen and (max-width:780px) {
-    .text-input {max-width: 75%;
-    }
-    
-    .select-input {max-width: 75%;}
-
-    input {max-width: 75%}
-
-    #availability-boxes {
-        width: 80%;
-    }
-}
-
-@media screen and (max-width:820px) {
-    .signup-form {
-        margin: 0;
-        background-color: #2d2b4210;
-        border-radius: 10px;
-        width: 100%;
-    }
-    
-}
-
-@media screen and (max-width:600px) {
-    label {display:block;}
-    .radio-label {margin:0;}
-    
 }
 
 @media screen and (max-width:300px) {
@@ -1131,24 +1111,21 @@ i {
         text-align: center;
         font-size: medium;
     }
-    
 }
 
-/* Isolated Media Queries Page 3 */
+/* Isolated Media Queries for signup.html */
+
  @media screen and (max-width:950px) {
     #signup-heading {font-size: 40px;}
-    
- }
+}
 
  @media screen and (max-width:515px) {
     #signup-heading {font-size: 30px;}
-    
- }
+}
 
  @media screen and (max-width:200px) {
     .invite-text {font-size: 100%;}
-    
- }
+}
 
 /* Rules to Accommodate Erros Alerted in W3C Validator */
 
