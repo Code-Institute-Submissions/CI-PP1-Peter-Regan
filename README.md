@@ -30,18 +30,18 @@ To begin with, I had an initial rough mental image of how the three pages of the
 Frankly, this was not a good approach. It would have been far more efficient to use a wireframing tool like Balsamiq. This would have allowed me to build a better defined structure that would have made styling and implementing media queries much simpler and more effective later on. However, I was not aware of this at the time.
 
 ***Colour Scheme***
-I used primarily navy and white for the website. This was in order to make sure elements could be easily contrasted but without making the mood of the website too severe. The site aims to make users feel positive and lighthearted about sport after all. ![Screenshot of Sport Spotters Homepage](https://drive.google.com/file/d/12DlNP04rmtC9IIwjLJOm0-E8oteyJq2G/view?usp=share_link)
-![Sport Spotters What We Do Section](https://drive.google.com/file/d/1-80Vc_jJH4FGuyoyorQ2bHib_Iw9Or1D/view?usp=share_link)
+I used primarily navy and white for the website. This was in order to make sure elements could be easily contrasted but without making the mood of the website too severe. The site aims to make users feel positive and lighthearted about sport after all. ![Screenshot of Sport Spotters Homepage](https://github.com/sonetto104/CI-PP1-Peter-Regan/blob/main/Sport%20Spotters%20Home.png)
+![Sport Spotters What We Do Section](https://github.com/sonetto104/CI-PP1-Peter-Regan/blob/main/Sport%20Spotters%20What%20We%20Do.png)
 
 ***Fonts***
 The fonts used were Lobster and Signika, both of which I took from Google Fonts. I used Lobster for the logo and headings as I wanted a font that felt lighthearted and friendly without seeming childish. Signika was a more appropriate neutral font for the rest of the text elements to make them easily legible.
 
 ***Grid and Flex Layouts***
 I used grid and flex layouts to arrange images and text in a way that adds visual variety to the site while maintaining balance between visual elements. These layouts are also responsive to screen size. I've attached screenshots of some of these layouts below so you can see how they change depending on screen size.
-![Availability Page Larger Grid Layout](https://drive.google.com/file/d/1_Ze17z1MP1CYRNo8lfNHHOUrpLk5oFDr/view?usp=share_link)
-![Availability Page Smaller Grid Layout](https://drive.google.com/file/d/14T00GwOzuDcK1lwv22yAhpoLp4imp_HJ/view?usp=share_link)
-![Home Page Larger Grid Layout](https://drive.google.com/file/d/1GduLjHJLFPO5nl5mka85SJNAxlSP3L1N/view?usp=share_link)
-![Home Smaller Grid Layout](https://drive.google.com/file/d/1RhTCvc_hetJYEsGPVXKl__eeOoPyrrlY/view?usp=share_link)
+![Availability Page Larger Grid Layout](https://github.com/sonetto104/CI-PP1-Peter-Regan/blob/main/Available%20Page%20Large%20Grid.png)
+![Availability Page Smaller Grid Layout](https://github.com/sonetto104/CI-PP1-Peter-Regan/blob/main/Available%20Page%20Small%20Grid.png)
+![Home Page Larger Grid Layout](https://github.com/sonetto104/CI-PP1-Peter-Regan/blob/main/Home%20Page%20Large%20Grid.png)
+![Home Smaller Grid Layout](https://github.com/sonetto104/CI-PP1-Peter-Regan/blob/main/Home%20Page%20Small%20Grid.png)
 
 ***Images***
 All the images for this project were taken from www.pexels.com. Using one source for images allowed me to choose images that were consistent in tone. It was important to me that images conveyed a sense of enjoyment in sport, and that they looked like they could at least potentially have been taken in London where Sports Spotters would be based.
