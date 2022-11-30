@@ -145,6 +145,47 @@ In terms of manual tests I:
    5. Checked that the website loads in Google Chrome, Microsoft Edge and Mozilla Firefoz web browsers.
    6. Used https://ui.dev/amiresponsive and www.responsinator.com to see if the site worked in mobile view.
    
+## Deployment ##
+
+
+***How I Deployed the Project***
+
+After validating my HTML and CSS with the W3C validators, it was time to deploy the project. To do this I visited my repository and pressed on the settings button. This brought me to a new page. On this new page there is a menu on the left hand side of the page. I clicked on the "Pages" option from this menu. Under "Source", I selected "main" as the branch from which to deploy the project from. I then clicked "Save" which automatically refreshed the page. After the few minutes required for Github to build the website, a link for the website appeared on this page.
+
+
+***How to Run This Project From a Browser***
+
+1. Install Google Chrome or Mozilla Firefox.
+2. Install the Gitpod browser extension for your chosen browser.
+3. Create a GitHub account and log into it.
+4. Visit the repository for this project. It is called sonetto104/CI-PP1-Peter-Regan. You can also use this link to visit it: https://github.com/sonetto104/CI-PP1-Peter-Regan
+5. Open this repository in Gitpod by clicking the green Gitpod button at the top right of the repository.
+6. This will open a new workspace with the current state of the main branch of this repository.
+
+
+***How to Run This Project Locally***
+
+***Cloning the Repository***
+1. Visit the Sport Spotters repository: https://github.com/sonetto104/CI-PP1-Peter-Regan
+2. Click the "Code" dropdown box above the repository's file explorer and select the "Local" heading.
+3. Underneath this, click the HTTPS subheading if it's not already selected.
+4. Copy the link presented in the text field below this HTTPS subheading.
+5. Open your preferred IDE and make sure it has support for Git.
+6. Open the terminal, and create a directory where you can store the repository.
+7. Type git clone and paste the previously copied text and press enter.
+8.The repository will then be cloned to your selected directory.
+
+
+***Manually Downloading the Repository***
+1. Visit Sport Spotters GitHub repository: https://github.com/sonetto104/CI-PP1-Peter-Regan
+2. Click the "Code" dropdown box next to the green Gitpod icon.
+3. Click the "Download ZIP" option; this will download a copy of the selected branch's repository as a zip file.
+4. Find the downloaded file on your your computer, and extract the ZIP to the folder where you would like to store the repository.
+
+
+After either cloning or downloading the repository, you can have offline access to it by navigating to the directory where it was stored in your IDE.
+
+
 ## Code From External Sources ##
 
 The code used to create the grow effect on the hero image, navigation elements, footer links and grid text came from this source: https://travis.media/how-to-make-an-item-grow-on-hover-with-css/
